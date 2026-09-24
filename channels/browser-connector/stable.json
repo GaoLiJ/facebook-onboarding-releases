@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "component": "browser-connector",
+  "min_app_version": "2.2.0.213",
+  "channel": "stable",
+  "version": "0.0.52",
+  "release_id": "browser-connector-v0.0.52",
+  "protocol_version": 1,
+  "min_supported_version": "0.0.52",
+  "min_extension_version": "0.0.52",
+  "published_at": "2026-09-24T06:22:43.393000Z",
+  "artifacts": [
+    {
+      "platform": "browser-extension",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.52/browser-connector-0.0.52.zip",
+      "size": 82109,
+      "sha256": "6a06cefc9521792aecad73c389f04d47ae1e7edf357add4e4bc91406aeabcf40"
+    }
+  ],
+  "notes": "浏览器连接器 0.0.52，工具箱空闲后自动更新。",
+  "signature": "WmiojPOSj18bMtJCx_Qcu1RNI7az2S9eO-QIXqLb6jFHrZ9WpGuyTAVHBxHUyBx5wx_A2_Qjgl8Wr7zeUU81Dg"
+}
