@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.212",
-  "release_id": "ads-reports-v2.2.0.212",
+  "version": "2.2.0.213",
+  "release_id": "ads-reports-v2.2.0.213",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T03:53:38.892000Z",
+  "published_at": "2026-09-24T06:20:45.169000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.212/FB-toolbox-ads-reports-2.2.0.212-win-x64.zip",
-      "size": 175318963,
-      "sha256": "67260d2c8191265b10114206057c06fe087ebb9c3163e22d7ba27ae1608db1a5"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.213/FB-toolbox-ads-reports-2.2.0.213-win-x64.zip",
+      "size": 110882298,
+      "sha256": "5a46a3f286314e73a505aca99b5533899637ef053cf88059f461cb2327df856d"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.211",
+      "base_version": "2.2.0.212",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.212/FB-toolbox-ads-reports-2.2.0.212-from-2.2.0.211.delta.zip",
-      "size": 912115,
-      "sha256": "1c03c688296cd8dbb97bfd0ba1627f623769690c1603659932f47dfbd6c90a58"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.213/FB-toolbox-ads-reports-2.2.0.213-from-2.2.0.212.delta.zip",
+      "size": 2138051,
+      "sha256": "db873e0aa88f5f963f73fc9da866a4133bd9ac82b445953566e0b792588ce7b9"
     }
   ],
-  "notes": "FB投放版 2.2.0.212\r\n\r\n首次内置 GitHub 在线更新。安装此版后，后续版本可后台下载，并在任务结束后由用户点击重启生效，浏览器保持打开。\r\n\r\n- 支持指定基线的文件块增量更新；基线不适用时自动使用完整包。\r\n- 完整包与增量包均校验签名、下载摘要及安装内容；启动失败自动尝试恢复旧版。\r\n- 开户版、投放版、完整工具箱使用独立频道及安装目录。\r\n- 本版连接器仍为 0.0.52；保留现有完成提示音及设置。\r\n- 更早专版请先下载本页完整 ZIP。delta.zip 供更新器使用，不是独立安装包。\r\n\r\n历史版本保留在 Releases，正式版本不覆盖同名附件。",
+  "notes": "数据获取版 2.2.0.213\r\n\r\n应用版本：2.2.0.213；浏览器连接器：0.0.52（扩展源码未变，不随应用递增）。\r\n\r\n关闭更新提示后，左侧版本号仍保留新版提示点；点击直接进入更新页面，任务结束后由用户选择重启工具箱。\r\n支持浏览器连接器独立签名更新通道：兼容的新连接器可在工具箱版本不变时单独下载，任务空闲后替换并后台重载；不能在同一完整扩展版本下覆盖不同内容。\r\n完整包与增量包均使用完整目标文件表重建，删除的旧文件不带入新版；旧版本保留用于回滚。\r\n两种专版应用版本对齐，更新通道及目录隔离。\r\n\r\n原“FB投放版”更名为“数据获取版”，保留广告搭建、BM 报表和默认趣味提示音。去除开户工作流、OCR 模型与专用原生依赖。\r\n\r\n验证：更新专项测试、真实 Windows 连接器安装/回滚测试、分版依赖与原生文件校验、两版发布包启动和 Native Messaging 自检。",
   "key_id": "f4112e07706e29a2",
-  "signature": "oa46iMzJWUKIBw7oObTC-IlWBrfq5Cgq1wkO4zfrtehJYTa8Gy0kItPDYzPlhQWKpFevpt35HLqYk0AjRoUvBQ"
+  "signature": "FovwA1bUjaaflcw5IgEo0OqQbqNW0yt-4EvkjPfdP6q9YPtbXDNApMx6XWtWpEak5QLsEw9iF2pEFleylPdoDw"
 }
