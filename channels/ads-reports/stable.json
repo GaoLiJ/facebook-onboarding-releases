@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "edition": "ads-reports",
+  "channel": "stable",
+  "version": "2.2.0.212",
+  "release_id": "ads-reports-v2.2.0.212",
+  "protocol_version": 1,
+  "min_supported_version": "2.2.0.212",
+  "min_extension_version": "0.0.52",
+  "published_at": "2026-09-24T03:53:38.892000Z",
+  "artifacts": [
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.212/FB-toolbox-ads-reports-2.2.0.212-win-x64.zip",
+      "size": 175318963,
+      "sha256": "67260d2c8191265b10114206057c06fe087ebb9c3163e22d7ba27ae1608db1a5"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.211",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.212/FB-toolbox-ads-reports-2.2.0.212-from-2.2.0.211.delta.zip",
+      "size": 912115,
+      "sha256": "1c03c688296cd8dbb97bfd0ba1627f623769690c1603659932f47dfbd6c90a58"
+    }
+  ],
+  "notes": "FB投放版 2.2.0.212\r\n\r\n首次内置 GitHub 在线更新。安装此版后，后续版本可后台下载，并在任务结束后由用户点击重启生效，浏览器保持打开。\r\n\r\n- 支持指定基线的文件块增量更新；基线不适用时自动使用完整包。\r\n- 完整包与增量包均校验签名、下载摘要及安装内容；启动失败自动尝试恢复旧版。\r\n- 开户版、投放版、完整工具箱使用独立频道及安装目录。\r\n- 本版连接器仍为 0.0.52；保留现有完成提示音及设置。\r\n- 更早专版请先下载本页完整 ZIP。delta.zip 供更新器使用，不是独立安装包。\r\n\r\n历史版本保留在 Releases，正式版本不覆盖同名附件。",
+  "key_id": "f4112e07706e29a2",
+  "signature": "oa46iMzJWUKIBw7oObTC-IlWBrfq5Cgq1wkO4zfrtehJYTa8Gy0kItPDYzPlhQWKpFevpt35HLqYk0AjRoUvBQ"
+}
