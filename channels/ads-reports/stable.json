@@ -2,29 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.213",
-  "release_id": "ads-reports-v2.2.0.213",
+  "version": "2.2.0.214",
+  "release_id": "ads-reports-v2.2.0.214",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T06:20:45.169000Z",
+  "published_at": "2026-09-24T07:10:25.260000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.213/FB-toolbox-ads-reports-2.2.0.213-win-x64.zip",
-      "size": 110882298,
-      "sha256": "5a46a3f286314e73a505aca99b5533899637ef053cf88059f461cb2327df856d"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.214/FB-toolbox-ads-reports-2.2.0.214-win-x64.zip",
+      "size": 110882956,
+      "sha256": "4d68d44562c2b60fdc8a46189c992641957bdb93828d5060d8e2538f0c1a2b7d"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.212",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.213/FB-toolbox-ads-reports-2.2.0.213-from-2.2.0.212.delta.zip",
-      "size": 2138051,
-      "sha256": "db873e0aa88f5f963f73fc9da866a4133bd9ac82b445953566e0b792588ce7b9"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.214/FB-toolbox-ads-reports-2.2.0.214-from-2.2.0.212.delta.zip",
+      "size": 2190626,
+      "sha256": "70900036f8b2364e1a7034577741df9d314f018078537e296e005ba83496d0c0"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.213",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.214/FB-toolbox-ads-reports-2.2.0.214-from-2.2.0.213.delta.zip",
+      "size": 515415,
+      "sha256": "49b815792a52aaa4667ca672f7c4387a205fa343d46d895db7aa14d97146cbb1"
     }
   ],
-  "notes": "数据获取版 2.2.0.213\r\n\r\n应用版本：2.2.0.213；浏览器连接器：0.0.52（扩展源码未变，不随应用递增）。\r\n\r\n关闭更新提示后，左侧版本号仍保留新版提示点；点击直接进入更新页面，任务结束后由用户选择重启工具箱。\r\n支持浏览器连接器独立签名更新通道：兼容的新连接器可在工具箱版本不变时单独下载，任务空闲后替换并后台重载；不能在同一完整扩展版本下覆盖不同内容。\r\n完整包与增量包均使用完整目标文件表重建，删除的旧文件不带入新版；旧版本保留用于回滚。\r\n两种专版应用版本对齐，更新通道及目录隔离。\r\n\r\n原“FB投放版”更名为“数据获取版”，保留广告搭建、BM 报表和默认趣味提示音。去除开户工作流、OCR 模型与专用原生依赖。\r\n\r\n验证：更新专项测试、真实 Windows 连接器安装/回滚测试、分版依赖与原生文件校验、两版发布包启动和 Native Messaging 自检。",
+  "notes": "数据获取版 2.2.0.214\r\n\r\n修复 Meta 将 Facebook 和 Instagram 身份合并展示时，主页选择弹层无法打开的问题：只在标准主页控件缺失且身份编辑入口唯一时展开编辑，再从当前账户实际可用主页列表按原规则轮询。避免把 Threads 的“使用 Facebook 公共主页”识别成主页选择器。\r\n\r\n数据获取版提供 2.2.0.212、2.2.0.213 两个基线的差异包，缺失基线时可使用完整包。安装将按目标清单清理旧文件；当前任务结束后提示用户重启工具箱以生效。\r\n\r\n开户版仍为 2.2.0.213，浏览器连接器仍为 0.0.52。",
   "key_id": "f4112e07706e29a2",
-  "signature": "FovwA1bUjaaflcw5IgEo0OqQbqNW0yt-4EvkjPfdP6q9YPtbXDNApMx6XWtWpEak5QLsEw9iF2pEFleylPdoDw"
+  "signature": "lHuM1uHsNWtHVbcpVBrdP8DMBiZOFvSgtoARIZ-lg-34PS8TiZ2FJr5sDk7-qoJv2Z5wVdQgRp4tUMtfO2Q2Aw"
 }
