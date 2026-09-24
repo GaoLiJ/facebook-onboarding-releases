@@ -2,21 +2,29 @@
   "schema": 1,
   "edition": "onboarding",
   "channel": "stable",
-  "version": "2.2.0.213",
-  "release_id": "onboarding-v2.2.0.213",
+  "version": "2.2.0.215",
+  "release_id": "onboarding-v2.2.0.215",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T06:22:42.949000Z",
+  "published_at": "2026-09-24T08:19:41.670000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.213/FB-toolbox-onboarding-2.2.0.213-win-x64.zip",
-      "size": 174632621,
-      "sha256": "015f7fc9372e1879803513770875ad7387e7f2533f76b40b54cceffb543be3ee"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.215/FB-toolbox-onboarding-2.2.0.215-win-x64.zip",
+      "size": 174633148,
+      "sha256": "c8b118eb2aa83b545234b812f3bbc52ef28288ae1b9cd7bfdabf87ab6c89d0d2"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.213",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.215/FB-toolbox-onboarding-2.2.0.215-from-2.2.0.213.delta.zip",
+      "size": 588167,
+      "sha256": "a520098cad5e772fea2dedc1ac9ce6b9170e08491bb87faa8c34ae399e62f190"
     }
   ],
-  "notes": "开户版 2.2.0.213\r\n\r\n应用版本：2.2.0.213；浏览器连接器：0.0.52（扩展源码未变，不随应用递增）。\r\n\r\n关闭更新提示后，左侧版本号仍保留新版提示点；点击直接进入更新页面，任务结束后由用户选择重启工具箱。\r\n支持浏览器连接器独立签名更新通道：兼容的新连接器可在工具箱版本不变时单独下载，任务空闲后替换并后台重载；不能在同一完整扩展版本下覆盖不同内容。\r\n完整包与增量包均使用完整目标文件表重建，删除的旧文件不带入新版；旧版本保留用于回滚。\r\n两种专版应用版本对齐，更新通道及目录隔离。\r\n\r\n仅包含开户业务入口，排除报表、广告搭建工作流、专用国家库和报表声音；保留营业执照 OCR、Sharp/ONNX、数据库和公共浏览器连接能力。旧开户版首次需下载此完整包，之后通过内置更新入口更新。\r\n\r\n验证：更新专项测试、真实 Windows 连接器安装/回滚测试、分版依赖与原生文件校验、两版发布包启动和 Native Messaging 自检。",
+  "notes": "开户版 2.2.0.215\r\n\r\n修复 Windows 桌面更新器在写入 app.asar 时出现“更新产物下载或暂存失败”的问题。增量合成、完整包解压、安装校验和目录切换使用原生文件系统，不影响正常程序加载。\r\n\r\n新增真实 Electron 更新自检，覆盖增量/完整包、重复检查、删除旧文件、安装目录复用及篡改拒绝。更新失败显示具体原因。\r\n\r\n注意：212–214 的旧更新器自身存在此缺陷，无法仅靠重复检查更新修复。首次迁移至 215 请下载完整 ZIP，解压后运行 FB工具箱.exe；也可由维护人员通过校验后安装到独立更新目录。215 起恢复正常的后台下载、用户确认重启生效流程。\r\n\r\n数据获取版和开户版均为 2.2.0.215，连接器仍为 0.0.52。本次不需要更新浏览器扩展。",
   "key_id": "f4112e07706e29a2",
-  "signature": "-47M5hN8ChbnpG1yC45iSWGK4CM1VBymN05ru0e4rnL-3jp4DKUBNi_zg7CN_aVd8abba3-9LeUuqJLV_ZugDg"
+  "signature": "X_t0yTIc3lKLYqosU3P0hbCgZc3FHngy3eW04lvlYZBPCLpJUftpKA5XnwsFnvtLYk1PtNe811jlkwN0a5dFBA"
 }
