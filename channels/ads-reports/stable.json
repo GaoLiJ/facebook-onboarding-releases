@@ -2,37 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.215",
-  "release_id": "ads-reports-v2.2.0.215",
+  "version": "2.2.0.216",
+  "release_id": "ads-reports-v2.2.0.216",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T08:14:43.467000Z",
+  "published_at": "2026-09-26T04:37:47.257000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.215/FB-toolbox-ads-reports-2.2.0.215-win-x64.zip",
-      "size": 110883428,
-      "sha256": "872ed8fa99a52425141cb9bca095d9062bf7288baa640960420444364ce132ee"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.216/FB-toolbox-ads-reports-2.2.0.216-win-x64.zip",
+      "size": 110884586,
+      "sha256": "f0b8ebba16ddc279521344f2a5fc2f285daecb19fb16903bc7f0cb2a69fc42da"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.213",
+      "base_version": "2.2.0.215",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.215/FB-toolbox-ads-reports-2.2.0.215-from-2.2.0.213.delta.zip",
-      "size": 626056,
-      "sha256": "f23ff4a41a4c3040cc6072ae2b72b4068e97ea3c2ffb93d31aa3514321e518e9"
-    },
-    {
-      "kind": "delta",
-      "base_version": "2.2.0.214",
-      "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.215/FB-toolbox-ads-reports-2.2.0.215-from-2.2.0.214.delta.zip",
-      "size": 573475,
-      "sha256": "e522dc51071d4023e0e59ff0626c0521a21b26b8fd6957130437940c5627bea0"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.216/FB-toolbox-ads-reports-2.2.0.216-from-2.2.0.215.delta.zip",
+      "size": 526379,
+      "sha256": "6a301433a2ac213a9cdcdc2bd73f4d4c64ee45e6b25d92e3ed0d373737c0d10d"
     }
   ],
-  "notes": "数据获取版 2.2.0.215\r\n\r\n修复 Windows 桌面更新器在写入 app.asar 时出现“更新产物下载或暂存失败”的问题。增量合成、完整包解压、安装校验和目录切换使用原生文件系统，不影响正常程序加载。\r\n\r\n新增真实 Electron 更新自检，覆盖增量/完整包、重复检查、删除旧文件、安装目录复用及篡改拒绝。更新失败显示具体原因。\r\n\r\n注意：212–214 的旧更新器自身存在此缺陷，无法仅靠重复检查更新修复。首次迁移至 215 请下载完整 ZIP，解压后运行 FB工具箱.exe；也可由维护人员通过校验后安装到独立更新目录。215 起恢复正常的后台下载、用户确认重启生效流程。\r\n\r\n数据获取版和开户版均为 2.2.0.215，连接器仍为 0.0.52。本次不需要更新浏览器扩展。",
+  "notes": "修复后台搭建中，国家候选点击未生效后直接失败的问题；按已选地区回读进行有限恢复，仍严格确认仅投放目标国家。\r\n\r\n修复 Meta 重绘后系列或广告组名称变空的情况：按本次已记录的对象 ID 恢复缺失名称，并重新核对保存状态和新广告选择范围。其他名称或对象归属发生变化时仍停止。\r\n\r\n仅更新数据获取版，开户版保持 2.2.0.215。浏览器连接器保持 0.0.52。支持从 2.2.0.215 下载增量更新。",
   "key_id": "f4112e07706e29a2",
-  "signature": "aMdwhZUs0y9L0FknuGfJUcXda7e0EO1J8lfX1_c9xI8aHcxP8te1Eb-FhIa1mWMPWMLuH6kKqpgIyknq-4BOBw"
+  "signature": "piJm5gkFCmO8jgg-cCEDBJcJ-RfiWaWrnHVqVIAAKUG3Dldymf50NZQM46-JZzRJ5dkQafF-fZ8O6lX7S1JhBQ"
 }
