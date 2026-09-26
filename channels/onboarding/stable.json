@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "onboarding",
   "channel": "stable",
-  "version": "2.2.0.215",
-  "release_id": "onboarding-v2.2.0.215",
+  "version": "2.2.0.217",
+  "release_id": "onboarding-v2.2.0.217",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T08:19:41.670000Z",
+  "published_at": "2026-09-26T12:34:24.777000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.215/FB-toolbox-onboarding-2.2.0.215-win-x64.zip",
-      "size": 174633148,
-      "sha256": "c8b118eb2aa83b545234b812f3bbc52ef28288ae1b9cd7bfdabf87ab6c89d0d2"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.217/FB-toolbox-onboarding-2.2.0.217-win-x64.zip",
+      "size": 174633333,
+      "sha256": "ec0e477374b8737f3d2dc48ab2b60c38ec4393c0e51e28f3ea76379d90d17df8"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.213",
+      "base_version": "2.2.0.215",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.215/FB-toolbox-onboarding-2.2.0.215-from-2.2.0.213.delta.zip",
-      "size": 588167,
-      "sha256": "a520098cad5e772fea2dedc1ac9ce6b9170e08491bb87faa8c34ae399e62f190"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.217/FB-toolbox-onboarding-2.2.0.217-from-2.2.0.215.delta.zip",
+      "size": 606686,
+      "sha256": "2722563d8cfeae7b3e069a267667502a70cb24e359c3c4a773f44849f7e3ecac"
     }
   ],
-  "notes": "开户版 2.2.0.215\r\n\r\n修复 Windows 桌面更新器在写入 app.asar 时出现“更新产物下载或暂存失败”的问题。增量合成、完整包解压、安装校验和目录切换使用原生文件系统，不影响正常程序加载。\r\n\r\n新增真实 Electron 更新自检，覆盖增量/完整包、重复检查、删除旧文件、安装目录复用及篡改拒绝。更新失败显示具体原因。\r\n\r\n注意：212–214 的旧更新器自身存在此缺陷，无法仅靠重复检查更新修复。首次迁移至 215 请下载完整 ZIP，解压后运行 FB工具箱.exe；也可由维护人员通过校验后安装到独立更新目录。215 起恢复正常的后台下载、用户确认重启生效流程。\r\n\r\n数据获取版和开户版均为 2.2.0.215，连接器仍为 0.0.52。本次不需要更新浏览器扩展。",
+  "notes": "修复点击“重启更新”后工具箱未重新打开的问题。更新进程退出后，新版窗口保持运行；兼容从 215、216 旧更新器首次升级，更新失败时恢复旧版的窗口也独立运行。\r\n\r\n数据获取版和开户版同步修复。浏览器连接器仍为 0.0.52，无需刷新或升级扩展。保留任务结束后由用户点击重启更新的行为。\r\n\r\n验证：真实 Windows / Electron 的旧更新器交接、新更新器重启和回滚启动；更新进程退出后窗口可见、渲染器持续响应。发布包同时验证签名、完整包/增量重建、文件删除、完整性和版本一致性。",
   "key_id": "f4112e07706e29a2",
-  "signature": "X_t0yTIc3lKLYqosU3P0hbCgZc3FHngy3eW04lvlYZBPCLpJUftpKA5XnwsFnvtLYk1PtNe811jlkwN0a5dFBA"
+  "signature": "dPqekJjsvOu3bRr_06uKrCLewUjS6p_iPXCVRdmfp1QCe64HMf61q6iuDnxWmz76wkJe7mg5E6EvxgC2sf0LAg"
 }
