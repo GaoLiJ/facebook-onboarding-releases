@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.219",
-  "release_id": "ads-reports-v2.2.0.219",
+  "version": "2.2.0.220",
+  "release_id": "ads-reports-v2.2.0.220",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-29T03:44:23.464000Z",
+  "published_at": "2026-09-29T09:16:31.640000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.219/FB-toolbox-ads-reports-2.2.0.219-win-x64.zip",
-      "size": 125930409,
-      "sha256": "8fa09a1d1b6819c85af9ba385b134abef7e2c0ed614e9f9fb6d1383cf56bfa38"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.220/FB-toolbox-ads-reports-2.2.0.220-win-x64.zip",
+      "size": 125933739,
+      "sha256": "d8a1a259a21163f50595d420e85ed0398f6134f1786fbed43ded0e293b79f6db"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.218",
+      "base_version": "2.2.0.219",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.219/FB-toolbox-ads-reports-2.2.0.219-from-2.2.0.218.delta.zip",
-      "size": 1470397,
-      "sha256": "c1433b535c33eae03b6bef7cbc609897badb5d3c032c062bb2e1aa35e59bfb86"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.220/FB-toolbox-ads-reports-2.2.0.220-from-2.2.0.219.delta.zip",
+      "size": 1842983,
+      "sha256": "5f4ce9f971d225448fe15b189ae8931de1134bf15873e7a9d45fca025465c470"
     }
   ],
-  "notes": "FB工具箱 2.2.0.219",
+  "notes": "FB工具箱 2.2.0.220",
   "key_id": "f4112e07706e29a2",
-  "signature": "UOI05ovvqcoqfxH2oRFOS6MXIUQeu9sqZEsVTCrOS2PhsViC8aFmPv7tbLB9vFUgtKVum74e3wDP7Tb9ftQADg"
+  "signature": "aGviX23SvTw1hBBjw_27_zhDBdpEswfCNHy2JV1WXyb9iyZtFH3C-hzK8lRokeCIqF5IDf27nuIT20yPLDfTBg"
 }
