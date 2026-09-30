@@ -2,29 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.220",
-  "release_id": "ads-reports-v2.2.0.220",
+  "version": "2.2.0.221",
+  "release_id": "ads-reports-v2.2.0.221",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-29T09:16:31.640000Z",
+  "published_at": "2026-09-30T09:57:13.427000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.220/FB-toolbox-ads-reports-2.2.0.220-win-x64.zip",
-      "size": 125933739,
-      "sha256": "d8a1a259a21163f50595d420e85ed0398f6134f1786fbed43ded0e293b79f6db"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-win-x64.zip",
+      "size": 126039071,
+      "sha256": "1acabbaa2822d0dc105c7bd8eb42b521d17191e01fb7b7ad9dd0472cebd9ba8b"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.220",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-from-2.2.0.220.delta.zip",
+      "size": 2321379,
+      "sha256": "48295d951c1c9204d023abffa26db846861821ed9662b92ca56b60f0216c8064"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.219",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.220/FB-toolbox-ads-reports-2.2.0.220-from-2.2.0.219.delta.zip",
-      "size": 1842983,
-      "sha256": "5f4ce9f971d225448fe15b189ae8931de1134bf15873e7a9d45fca025465c470"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-from-2.2.0.219.delta.zip",
+      "size": 2379097,
+      "sha256": "a7538fb8552ad9ce41e0f552e8c91ed61223ce2fbb4fe7dc19fb3a2265b2ef3a"
     }
   ],
-  "notes": "FB工具箱 2.2.0.220",
+  "notes": "数据获取版 2.2.0.221\r\n\r\n- 修复报表工作流在编辑器中的 Node.js 类型识别错误。\r\n- BM 报表日期选择支持快捷范围、双月日历、手动输入和年月定位；弹层更紧凑，移除重复说明，并修复手动输入时首个字符被旧日期覆盖的问题。\r\n- 业务包支持投放地区、GMT 时区展示，以及 Android / iOS 多选。\r\n- 完善 BM 绑定、备用账户换包、预算与状态编辑，以及账户/广告日消耗查询。\r\n- 采集任务显示读取、待上传、上传和服务端校验阶段；完整历史日默认跳过，支持主动重新采集；明确入口失效时可尝试已登记的备用入口。\r\n- 更新浏览器连接器至 0.0.54，补齐原始响应来源证据，并保留脚本中名称的原始空格。\r\n\r\n数据工作台需连接配套中央服务，服务器数据库须升级到 V15。搭建广告和 BM 本地 Excel 保持独立可用。\r\n新增云采集能力仍需完成整月任务、真实故障重启及多角色联调验收。",
   "key_id": "f4112e07706e29a2",
-  "signature": "aGviX23SvTw1hBBjw_27_zhDBdpEswfCNHy2JV1WXyb9iyZtFH3C-hzK8lRokeCIqF5IDf27nuIT20yPLDfTBg"
+  "signature": "730NZfLtWcQ9taB1Xvxmn4ATTuZXPQHWIyV4yJ3ScqIVmE4U05lGL3IC9FRKtZ6wWULszeVLOXZFmjruvHe9Dg"
 }
