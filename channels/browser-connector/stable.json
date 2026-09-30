@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.213",
+  "min_app_version": "2.2.0.221",
   "channel": "stable",
-  "version": "0.0.52",
-  "release_id": "browser-connector-v0.0.52",
+  "version": "0.0.54",
+  "release_id": "browser-connector-v0.0.54",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-24T06:22:43.393000Z",
+  "published_at": "2026-09-30T09:43:15.787000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.52/browser-connector-0.0.52.zip",
-      "size": 82109,
-      "sha256": "6a06cefc9521792aecad73c389f04d47ae1e7edf357add4e4bc91406aeabcf40"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.54/browser-connector-0.0.54.zip",
+      "size": 92238,
+      "sha256": "c1f068767cb71048c7405b0030cc351d37dcfa5ae0830115442c7c27d6e750f1"
     }
   ],
-  "notes": "浏览器连接器 0.0.52，工具箱空闲后自动更新。",
-  "signature": "WmiojPOSj18bMtJCx_Qcu1RNI7az2S9eO-QIXqLb6jFHrZ9WpGuyTAVHBxHUyBx5wx_A2_Qjgl8Wr7zeUU81Dg"
+  "notes": "浏览器连接器 0.0.54\r\n\r\n- 增加原始报表来源及捕获证据，供完整账户日和广告日校验使用。\r\n- CDP 与 content fallback 读取脚本时保留原始文本，避免规范化空格改变名称。\r\n- 本频道面向数据获取版 2.2.0.221 及以上版本；连接器仅在任务结束后更新。",
+  "signature": "Fvvt9isgAvuFAOLkCTqmzW4jLjvlDeVwDhXH0-pR_taL_a5Ukzrqvnc-IxwNoW-ITXZp3tqDxKhNBUHmPA7zAA"
 }
