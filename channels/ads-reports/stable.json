@@ -2,37 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.221",
-  "release_id": "ads-reports-v2.2.0.221",
+  "version": "2.2.0.222",
+  "release_id": "ads-reports-v2.2.0.222",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-30T09:57:13.427000Z",
+  "published_at": "2026-10-01T03:47:13.333000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-win-x64.zip",
-      "size": 126039071,
-      "sha256": "1acabbaa2822d0dc105c7bd8eb42b521d17191e01fb7b7ad9dd0472cebd9ba8b"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.222/FB-toolbox-ads-reports-2.2.0.222-win-x64.zip",
+      "size": 126040887,
+      "sha256": "f9d5fb5cefc2ebb2d0afc34314a9198b74c164d0c2abdfc4cc134bd092ac1480"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.220",
+      "base_version": "2.2.0.221",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-from-2.2.0.220.delta.zip",
-      "size": 2321379,
-      "sha256": "48295d951c1c9204d023abffa26db846861821ed9662b92ca56b60f0216c8064"
-    },
-    {
-      "kind": "delta",
-      "base_version": "2.2.0.219",
-      "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.221/FB-toolbox-ads-reports-2.2.0.221-from-2.2.0.219.delta.zip",
-      "size": 2379097,
-      "sha256": "a7538fb8552ad9ce41e0f552e8c91ed61223ce2fbb4fe7dc19fb3a2265b2ef3a"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.222/FB-toolbox-ads-reports-2.2.0.222-from-2.2.0.221.delta.zip",
+      "size": 1698169,
+      "sha256": "c9695fcb4b5320a3d5c349ec3adb9cd58c811d8f857b24741c32e85897e69106"
     }
   ],
-  "notes": "数据获取版 2.2.0.221\r\n\r\n- 修复报表工作流在编辑器中的 Node.js 类型识别错误。\r\n- BM 报表日期选择支持快捷范围、双月日历、手动输入和年月定位；弹层更紧凑，移除重复说明，并修复手动输入时首个字符被旧日期覆盖的问题。\r\n- 业务包支持投放地区、GMT 时区展示，以及 Android / iOS 多选。\r\n- 完善 BM 绑定、备用账户换包、预算与状态编辑，以及账户/广告日消耗查询。\r\n- 采集任务显示读取、待上传、上传和服务端校验阶段；完整历史日默认跳过，支持主动重新采集；明确入口失效时可尝试已登记的备用入口。\r\n- 更新浏览器连接器至 0.0.54，补齐原始响应来源证据，并保留脚本中名称的原始空格。\r\n\r\n数据工作台需连接配套中央服务，服务器数据库须升级到 V15。搭建广告和 BM 本地 Excel 保持独立可用。\r\n新增云采集能力仍需完成整月任务、真实故障重启及多角色联调验收。",
+  "notes": "数据获取版 2.2.0.222\n\n- 修复 Meta 报表显示“昨天”等日期前缀时找不到日期入口的问题。\n- 报表采集统一选择明确年月日，不再点击“昨天”快捷项；相对预设显示相同日期时也会重新选择。\n- 支持通过日历左右翻月选择起止日期，包括跨月、跨年和较早历史日期。\n- 提交后等待日期面板关闭并核对完整日期范围，再继续读取报表。\n\n已在总 BM 现场验证 9 月 15 日至 10 月 1 日、8 月 15 日至 10 月 1 日及 9 月 30 日单日选择。\n连接器保持 0.0.54。更新下载完成后，任务结束时点击“重启更新”即可生效。",
   "key_id": "f4112e07706e29a2",
-  "signature": "730NZfLtWcQ9taB1Xvxmn4ATTuZXPQHWIyV4yJ3ScqIVmE4U05lGL3IC9FRKtZ6wWULszeVLOXZFmjruvHe9Dg"
+  "signature": "OPOS7PyqRs2u2JJ6DI1Wx6OLfaTAMxvZW8C98jESEbrCEaDeNz_4BYQClhDNtEgXPJfLl_rqxMZQ4n0uw_8TBA"
 }
