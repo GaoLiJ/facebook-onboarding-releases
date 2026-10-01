@@ -2,29 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.222",
-  "release_id": "ads-reports-v2.2.0.222",
+  "version": "2.2.0.223",
+  "release_id": "ads-reports-v2.2.0.223",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-01T03:47:13.333000Z",
+  "published_at": "2026-10-01T13:01:49.216000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.222/FB-toolbox-ads-reports-2.2.0.222-win-x64.zip",
-      "size": 126040887,
-      "sha256": "f9d5fb5cefc2ebb2d0afc34314a9198b74c164d0c2abdfc4cc134bd092ac1480"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.223/FB-toolbox-ads-reports-2.2.0.223-win-x64.zip",
+      "size": 126041974,
+      "sha256": "0fb2b1fc9a89842e32105e877baec056e9e022ead6460fae3c313156f984325a"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.222",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.223/FB-toolbox-ads-reports-2.2.0.223-from-2.2.0.222.delta.zip",
+      "size": 1419499,
+      "sha256": "1f3d1b68b69cda9ec39437c14a24f07a6dd0e86f86bab0184f89491e791a554d"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.221",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.222/FB-toolbox-ads-reports-2.2.0.222-from-2.2.0.221.delta.zip",
-      "size": 1698169,
-      "sha256": "c9695fcb4b5320a3d5c349ec3adb9cd58c811d8f857b24741c32e85897e69106"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.223/FB-toolbox-ads-reports-2.2.0.223-from-2.2.0.221.delta.zip",
+      "size": 1818127,
+      "sha256": "df2f58e523ec59aeb28754322de5687a46bda14b93244e349c331776667a1d1a"
     }
   ],
-  "notes": "数据获取版 2.2.0.222\n\n- 修复 Meta 报表显示“昨天”等日期前缀时找不到日期入口的问题。\n- 报表采集统一选择明确年月日，不再点击“昨天”快捷项；相对预设显示相同日期时也会重新选择。\n- 支持通过日历左右翻月选择起止日期，包括跨月、跨年和较早历史日期。\n- 提交后等待日期面板关闭并核对完整日期范围，再继续读取报表。\n\n已在总 BM 现场验证 9 月 15 日至 10 月 1 日、8 月 15 日至 10 月 1 日及 9 月 30 日单日选择。\n连接器保持 0.0.54。更新下载完成后，任务结束时点击“重启更新”即可生效。",
+  "notes": "FB工具箱 数据获取版 2.2.0.223\n\n- 修复应用搜索残留及名称回显被误判为已选成功的问题，按当前账户候选 App ID 选择并确认成效目标可用，恢复时保持同一应用。\n- 修复印度与香港同时保留的地区清理问题，重新定位重绘后的地区行并确认删除结果。\n- 6 张和 12 张素材在总大小未超限时一次上传，连接器每批上限调整为 20 张，保留原文件大小限制。\n- 搭建开始及暂停恢复前确认连接器实际运行版本已达到 0.0.55，防止旧扩展在创建后才拒绝素材上传。\n\n含浏览器连接器 0.0.55。后台下载，任务结束后点击“重启更新”生效；浏览器窗口保留。",
   "key_id": "f4112e07706e29a2",
-  "signature": "OPOS7PyqRs2u2JJ6DI1Wx6OLfaTAMxvZW8C98jESEbrCEaDeNz_4BYQClhDNtEgXPJfLl_rqxMZQ4n0uw_8TBA"
+  "signature": "1JsMoK7smatMVNLRwgTLHRMhq4PFchuUsmPAmgygMyjXt9dR9xgc_XrPq3-_3qqMcaX6aDPwsCgSxQCqp8woDw"
 }
