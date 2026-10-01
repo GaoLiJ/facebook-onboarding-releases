@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.221",
+  "min_app_version": "2.2.0.213",
   "channel": "stable",
-  "version": "0.0.54",
-  "release_id": "browser-connector-v0.0.54",
+  "version": "0.0.55",
+  "release_id": "browser-connector-v0.0.55",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-30T09:43:15.787000Z",
+  "published_at": "2026-10-01T13:04:51.424000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.54/browser-connector-0.0.54.zip",
-      "size": 92238,
-      "sha256": "c1f068767cb71048c7405b0030cc351d37dcfa5ae0830115442c7c27d6e750f1"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.55/browser-connector-0.0.55.zip",
+      "size": 92288,
+      "sha256": "0b0a21abe5fa117be52ea70a0203f9dfb28c489f1daf0993c1b4953e261b52b9"
     }
   ],
-  "notes": "浏览器连接器 0.0.54\r\n\r\n- 增加原始报表来源及捕获证据，供完整账户日和广告日校验使用。\r\n- CDP 与 content fallback 读取脚本时保留原始文本，避免规范化空格改变名称。\r\n- 本频道面向数据获取版 2.2.0.221 及以上版本；连接器仅在任务结束后更新。",
-  "signature": "Fvvt9isgAvuFAOLkCTqmzW4jLjvlDeVwDhXH0-pR_taL_a5Ukzrqvnc-IxwNoW-ITXZp3tqDxKhNBUHmPA7zAA"
+  "notes": "FB工具箱浏览器连接器 0.0.55\n\n- CDP、content fallback 和原生文件选择器统一支持单次最多 20 个文件。\n- 保留单文件 10 MiB、合计 20 MiB 和分块大小限制；分块传输完成后一次提交整批文件。\n- 协议 v1 与旧工具箱的小批量上传兼容，空闲后由工具箱自动更新并核验实际运行版本。",
+  "signature": "hEdrichTCzaLZ9tF9h2h8-KBLrYFSAb98ne7uRysdKX73BiN3nqmZBVxJoShmq7zaXXTtAUUG5llHuJ5YbJ-DQ"
 }
