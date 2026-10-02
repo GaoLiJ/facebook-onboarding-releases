@@ -2,38 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.224",
-  "patch_revision": 1,
-  "release_id": "ads-reports-v2.2.0.224-p1",
+  "version": "2.2.0.225",
+  "release_id": "ads-reports-v2.2.0.225",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-02T15:10:14.310000Z",
+  "published_at": "2026-10-02T17:10:47.828000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224-p1/FB-toolbox-ads-reports-2.2.0.224-p1-win-x64.zip",
-      "size": 126074740,
-      "sha256": "0b0b1f866fba827021dafd892bf80855bee9397f6804342633f3615180ce2428"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-win-x64.zip",
+      "size": 126078253,
+      "sha256": "9aded7a5ec68dd175edcbd817722eb73dbe3546b6a27e113ca732ec4e238a5e7"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.224",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224-p1/FB-toolbox-ads-reports-2.2.0.224-p1-from-2.2.0.224.delta.zip",
-      "size": 1292044,
-      "sha256": "016b549eacc9b4c5da680b77a506ecd5d74d57b12a207f25dddc5c49a1d6fbc3"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-from-2.2.0.224.delta.zip",
+      "size": 1823800,
+      "sha256": "22d08abe2bc862feb450a6fc4655e26de1dd6d07dd8cf5219f5f32032059528c"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.223",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224-p1/FB-toolbox-ads-reports-2.2.0.224-p1-from-2.2.0.223.delta.zip",
-      "size": 2597872,
-      "sha256": "c3caf274b4421af7c0b877a507ad47d22c394af90d884fd4793c2042ae6924eb"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-from-2.2.0.223.delta.zip",
+      "size": 2601016,
+      "sha256": "aa1543380759599241a8cc61b4402f8fb163f9d6860071465b49f4323be787d7"
     }
   ],
-  "notes": "# 数据获取版 2.2.0.224 · 补丁 1\n\n- 修复旧草稿续跑仍停在系列页：核对原系列和唯一广告组编号后进入原广告组，避免重复创建。\n- 修复发布后默认草稿删除弹窗加载等待过短；保留单条默认草稿及受保护广告校验，记录底层读取原因。\n- 新增同版本补丁检测、增量下载、重启安装和失败回滚；新增及删除文件按完整目标表重建。\n- 应用与 Windows 版本仍为 2.2.0.224，连接器仍为 0.0.56；开户版保持原发布，不重复构建。\n\n首次安装须知：原 224 更新器尚不识别同版本补丁，请下载完整 ZIP、解压到新目录并从该目录运行 FB工具箱.exe。请在任务结束后退出旧工具箱，再启动本补丁。之后客户端才能自动接收同版本补丁。原 224 Release 和旧更新频道保持完整，可回退。\n\n旧草稿入口恢复限于可以确认原对象、尚未上传的草稿；已有上传或发布结果未知时仍需核对回执，不能盲目重做。",
+  "notes": "# 数据获取版 2.2.0.225\n\n- 更新检查、下载进度、文件校验和“重启并更新”统一在左上角版本卡片操作。检测到更新只改变提示颜色，不再自动弹出更新通知；设置页显示状态并打开同一卡片。\n- 修复继续原草稿时，名称输入框先出现、父系列编辑树延迟加载导致的名称核验失败。等待实际编辑树就绪后再核对原系列和广告组 ID，保留对象唯一性、账户与 BM 校验。\n- 兼容普通 224 和 224-p1 客户端的更新频道；无匹配增量时自动下载经过签名及摘要校验的完整包。\n- 浏览器连接器继续使用 0.0.56。",
   "key_id": "f4112e07706e29a2",
-  "signature": "sBsfSkuJAEWId9GeycdbWLbr6ujvRFd6_rtJnZa2oTtdhJrKTKW-PjmEs7WYXMNiHsqJWUoGA9MfoFNCPwe7AA"
+  "signature": "6LUdwOHVWQJNQBLB84c_BAPunipxJPUf6iTN_zEZ8iHHInXfOPzQEPNnfnUhTHAdx4zycwSsNyWtyYEM17vnBA"
 }
