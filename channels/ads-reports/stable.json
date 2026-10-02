@@ -2,37 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.224",
-  "release_id": "ads-reports-v2.2.0.224",
+  "version": "2.2.0.225",
+  "release_id": "ads-reports-v2.2.0.225",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-02T13:19:04.929000Z",
+  "published_at": "2026-10-02T17:10:47.828000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224/FB-toolbox-ads-reports-2.2.0.224-win-x64.zip",
-      "size": 126069059,
-      "sha256": "c94bf56191c400a7cefa4ea9c5975bfbc5d2addb086f05d24e6ced590457f349"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-win-x64.zip",
+      "size": 126078253,
+      "sha256": "9aded7a5ec68dd175edcbd817722eb73dbe3546b6a27e113ca732ec4e238a5e7"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.224",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-from-2.2.0.224.delta.zip",
+      "size": 1823800,
+      "sha256": "22d08abe2bc862feb450a6fc4655e26de1dd6d07dd8cf5219f5f32032059528c"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.223",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224/FB-toolbox-ads-reports-2.2.0.224-from-2.2.0.223.delta.zip",
-      "size": 2572119,
-      "sha256": "393ac097e480fca068942b15098760fb039f9030db07ac495ad3c88c933c4b9f"
-    },
-    {
-      "kind": "delta",
-      "base_version": "2.2.0.222",
-      "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.224/FB-toolbox-ads-reports-2.2.0.224-from-2.2.0.222.delta.zip",
-      "size": 2572131,
-      "sha256": "58f1c2a6258ad8522bf4c67c47e768c5e745aa26d4873ece9053ba27f06c75ba"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.225/FB-toolbox-ads-reports-2.2.0.225-from-2.2.0.223.delta.zip",
+      "size": 2601016,
+      "sha256": "aa1543380759599241a8cc61b4402f8fb163f9d6860071465b49f4323be787d7"
     }
   ],
-  "notes": "FB工具箱 数据获取版 2.2.0.224\n\n- 修复浏览器标签休眠后页面未恢复的问题：搭建前在后台恢复已丢弃的账户列表，等待完整加载并重新核对账户和 BM；任务期间临时保护标签，冻结时唤醒，结束后还原原设置。\n- 修复后台 CDP 初始化超时的恢复顺序，仅对只读初始化进行一次有界重连。\n- 修复印度国家候选点击及同名前缀地点误识别；最终继续核对仅保留目标国家。\n- 广告组字段配置失败后，可在当前任务内核对原草稿并继续；素材窗口未开始上传时允许批次末一次安全回访，避免重复创建和上传。\n- BM 报表直接识别已有完整报告，不再按包名搜索；优先读取完整原始预载响应，历史分页按实例排队并限速，保留日期、名称和金额校验。\n- 账户名称包含空格时完整解析，继续保留 BV / LB 主体前缀校验。\n- 改进版本号旁的更新入口、状态颜色和紧凑更新窗口；客户端内置正式服务地址 https://fb.grenw.cn。\n\n含浏览器连接器 0.0.56。后台下载，任务结束后点击“重启更新”生效，浏览器窗口保留。开户应用频道沿用原版。\n\n浏览器故障、网络异常及 Meta 页面变化仍可能导致失败；本次没有改用内部请求参数或 Meta Ads MCP 创建、上传或发布。",
+  "notes": "# 数据获取版 2.2.0.225\n\n- 更新检查、下载进度、文件校验和“重启并更新”统一在左上角版本卡片操作。检测到更新只改变提示颜色，不再自动弹出更新通知；设置页显示状态并打开同一卡片。\n- 修复继续原草稿时，名称输入框先出现、父系列编辑树延迟加载导致的名称核验失败。等待实际编辑树就绪后再核对原系列和广告组 ID，保留对象唯一性、账户与 BM 校验。\n- 兼容普通 224 和 224-p1 客户端的更新频道；无匹配增量时自动下载经过签名及摘要校验的完整包。\n- 浏览器连接器继续使用 0.0.56。",
   "key_id": "f4112e07706e29a2",
-  "signature": "E8s_mgP_XTdF5dsR0TjBZT0fqIjkio_Ag3YEjRAZPPolf34dtAJj2gBeL4q7M9IBkEjqNMXi8gJur_mBhNpBDw"
+  "signature": "6LUdwOHVWQJNQBLB84c_BAPunipxJPUf6iTN_zEZ8iHHInXfOPzQEPNnfnUhTHAdx4zycwSsNyWtyYEM17vnBA"
 }
