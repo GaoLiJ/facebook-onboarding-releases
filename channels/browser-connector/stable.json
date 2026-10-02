@@ -3,20 +3,20 @@
   "component": "browser-connector",
   "min_app_version": "2.2.0.213",
   "channel": "stable",
-  "version": "0.0.55",
-  "release_id": "browser-connector-v0.0.55",
+  "version": "0.0.56",
+  "release_id": "browser-connector-v0.0.56",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-01T13:04:51.424000Z",
+  "published_at": "2026-10-02T13:19:05.231000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.55/browser-connector-0.0.55.zip",
-      "size": 92288,
-      "sha256": "0b0a21abe5fa117be52ea70a0203f9dfb28c489f1daf0993c1b4953e261b52b9"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.56/browser-connector-0.0.56.zip",
+      "size": 97965,
+      "sha256": "3b626af14e37a898ad480adfe0c720e076611cfef1cee5cf0e1275a580c755a5"
     }
   ],
-  "notes": "FB工具箱浏览器连接器 0.0.55\n\n- CDP、content fallback 和原生文件选择器统一支持单次最多 20 个文件。\n- 保留单文件 10 MiB、合计 20 MiB 和分块大小限制；分块传输完成后一次提交整批文件。\n- 协议 v1 与旧工具箱的小批量上传兼容，空闲后由工具箱自动更新并核验实际运行版本。",
-  "signature": "hEdrichTCzaLZ9tF9h2h8-KBLrYFSAb98ne7uRysdKX73BiN3nqmZBVxJoShmq7zaXXTtAUUG5llHuJ5YbJ-DQ"
+  "notes": "FB工具箱浏览器连接器 0.0.56\n\n- 任务期间临时关闭对应标签的自动丢弃，所有任务拥有者释放后还原原设置；失败、租约到期和断连时清理。\n- 暴露浏览器标签丢弃、冻结及加载状态，支持核对精确地址后仅恢复已丢弃标签，不激活用户标签。\n- 初始化及续租时唤醒明确冻结的页面；后台 CDP 只读初始化超时允许一次确认释放后的有界重连。\n- 保留 CDP / content fallback 两条路径和原素材传输限制；报告读取补充可验证的原始预载响应来源。\n\n协议 v1，兼容既有小批量操作；完整标签恢复和最新搭建流程需数据获取版 2.2.0.224。工具箱空闲后自动部署并核验实际运行版本。",
+  "signature": "as58NG6fsHOmlYpQ7X2AMeB6v3wel7uxCtRbRDaqgZch7doXiKpMh9YfIMzqUtF-YZytXuUmMyYA5ksGcZ76Bg"
 }
