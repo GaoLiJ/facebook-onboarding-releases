@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.228",
-  "release_id": "ads-reports-v2.2.0.228",
+  "version": "2.2.0.229",
+  "release_id": "ads-reports-v2.2.0.229",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-03T14:48:10.587000Z",
+  "published_at": "2026-10-03T17:53:09.017000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.228/FB-toolbox-ads-reports-2.2.0.228-win-x64.zip",
-      "size": 126116957,
-      "sha256": "b6d1b900ff9ddfcebac2aa4b8b8344f7a776a96a3b7c36df4136e99b7457cad3"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.229/FB-toolbox-ads-reports-2.2.0.229-win-x64.zip",
+      "size": 126131609,
+      "sha256": "79f02bd72151e2f9f41eb4a0e23c1edc9cda36a696b158e57cc8df11f24379c7"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.227",
+      "base_version": "2.2.0.228",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.228/FB-toolbox-ads-reports-2.2.0.228-from-2.2.0.227.delta.zip",
-      "size": 1268789,
-      "sha256": "7b3bd492733290587d6153a311f8a336dfa3fc186cba4c54bd26d20b3260c569"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.229/FB-toolbox-ads-reports-2.2.0.229-from-2.2.0.228.delta.zip",
+      "size": 1219129,
+      "sha256": "851625551ce75a8f784eafc0099c96f7c2468624f46bc42498b7884d1a565ac5"
     }
   ],
-  "notes": "# FB工具箱 数据获取版 2.2.0.228\r\n\r\n- 修复选图完成后公共主页步骤过早核验、误报缺少身份回执：等待本组新广告及完整素材名生成，再设置主页。\r\n- 两个广告组复用相同素材时，按本组固定广告 ID 核对完整名称；短暂重绘只读等待，不再把前组同名素材计为重复。\r\n- 修复删除默认草稿后返回原组受阻：核对原系列后打开已记录的原组地址一次，文档切换只读重试；不重复创建、上传、删除或发布。\r\n- 修复删除后的列表切换被临时遮挡直接失败：在原账户和 BM 内有限等待，成功切换后不再次点击。\r\n- 修复跨组素材复用参数丢失，开启复用后允许不同组使用相同真实文件；每组素材仍需足量且唯一。\r\n- 修复较长素材名查询和主动暂停后的恢复，名称不截短，暂停在完整步骤边界生效。\r\n- 原浏览器新户从头测试通过：1 个系列、2 个广告组、12 条广告，含列表入口暂时不可点击后的自动恢复；所有测试广告保留草稿，没有发布。\n- 浏览器连接器沿用 0.0.57。",
+  "notes": "修复素材窗口列表卡住与短暂读取超时导致的搭建失败：上传回执已确认且真实上传活动结束后，自动切换“全部／账户”并返回原范围，保持已选素材并继续补选。\n\n素材状态读取使用共享阶段期限、最多三次只读请求，保留具体原因和已提交状态，不重新上传。选图核对发现明确多选时自动取消多余素材，再核对本组完整素材集合继续搭建。\n\n本次仅更新数据获取版应用；浏览器连接器保持 0.0.57。更新、下载与重启操作继续在左上角版本卡片完成。",
   "key_id": "f4112e07706e29a2",
-  "signature": "Q1ZfSeNOEAhRq1ZdHDsWN9xiAIgJb7T3EpHE0s7b98fp3M4rWGz_cVLp8MHMzc-UjazhkVsAq0T-QPDcOb9gAQ"
+  "signature": "7s5DaHBKLwnbF3_mXEZLKolX1CbvJTHZ-1aRtQfmsZeKbGgnk_6q0qOlCgUV0Mf7Sjj9FNL_M0FdJzWtTKvUBw"
 }
