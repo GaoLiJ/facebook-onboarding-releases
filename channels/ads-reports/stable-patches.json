@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.226",
-  "release_id": "ads-reports-v2.2.0.226",
+  "version": "2.2.0.227",
+  "release_id": "ads-reports-v2.2.0.227",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-02T19:14:45.182000Z",
+  "published_at": "2026-10-03T06:30:02.992000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.226/FB-toolbox-ads-reports-2.2.0.226-win-x64.zip",
-      "size": 126078571,
-      "sha256": "6f6bdac8e26210e10933f2f89a099dfee8fa4a5d5e8a810b5e8296cfb2805272"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.227/FB-toolbox-ads-reports-2.2.0.227-win-x64.zip",
+      "size": 126113953,
+      "sha256": "401583af33662f9ed9193fd904d165e5c98bba427c61b0caa2cb240a346eb936"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.225",
+      "base_version": "2.2.0.226",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.226/FB-toolbox-ads-reports-2.2.0.226-from-2.2.0.225.delta.zip",
-      "size": 1724586,
-      "sha256": "8d6fe975ef1d61f7a644841b101b13324218d14bf3ccad2db052acf494b39652"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.227/FB-toolbox-ads-reports-2.2.0.227-from-2.2.0.226.delta.zip",
+      "size": 1450221,
+      "sha256": "5dc56489557fac9dee59c6da72522e0836c787b97af656a8319c5f267ce59951"
     }
   ],
-  "notes": "# 数据获取版 2.2.0.226\n\n修复广告组把“正在确认你的编辑内容…”误判为整张表单加载，导致自动暂停的问题。暂停时直接显示具体原因，继续成功后清除旧错误。\n\n修复删除默认广告后尚未切到系列列表就查找系列的情况。保留已捕获的原系列、广告组和新广告回执；删除确认成功后的回读、返回编辑和草稿验收遇到暂时故障，可以在当前任务继续，不重复上传、创建、删除或发布。\n\n修复图片名称先出现、缩略图和选择控件稍后挂载时被误判为无法选择的问题。上传后等待当前图片卡片就绪，逐张核对选中回执，不重复上传已有素材。\n\n连接器维护全程在后台处理，取消顶部提示和手动重试入口；故障自动退避重试，离线等待原浏览器重新连接。已是最新且代码生效时不重复替换或重载。\n\n浏览器扩展沿用 0.0.56。本次只更新数据获取版。",
+  "notes": "# FB工具箱 数据获取版 2.2.0.227\n\n- 广告组字段暂时加载失败时自动等待、恢复原连接并核对原草稿，减少手动点击继续。\n- 广告组设置多次恢复未完成时，先处理后续账户，再回访原广告组一次；保留已完成的广告组和素材。\n- 修复排队待回访页面的渲染保持暂时失效后无法继续的问题，不重复创建、上传或发布。\n- 公共主页控件重绘、折叠或点击回执丢失时，在原广告范围内重新定位和回读。\n- 创建按钮不可用时根据页面提示区分账户/BM限制、权限、付款及首次投放设置；没有明确证据不会误报封户。\n- 连接器更新至 0.0.57，新增隔离的被动请求诊断能力；生产广告搭建仍使用原本地浏览器流程。\n\n用户主动暂停仍由用户继续。身份变化、权限限制和无法确认的写入结果会明确结束该账户并保留原因。",
   "key_id": "f4112e07706e29a2",
-  "signature": "wdByIlnJgm3lXSynT1-oitu0E3ppBnCeT6XOCpTuf9g5Y6J9iJpolQ7H892ZzTbwf1bHqBYrW-cLk4Fb4JXwBA"
+  "signature": "MsglRp5mzOXNBN7FBaDgQ2vyGFuotiOzELwlVc_VeJMod0_GpLRKP1S12dAaPiIJIwqUs2xloc2HH6tgg6jsAA"
 }
