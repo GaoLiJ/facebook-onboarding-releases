@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.227",
-  "release_id": "ads-reports-v2.2.0.227",
+  "version": "2.2.0.228",
+  "release_id": "ads-reports-v2.2.0.228",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-03T06:30:02.992000Z",
+  "published_at": "2026-10-03T14:48:10.587000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.227/FB-toolbox-ads-reports-2.2.0.227-win-x64.zip",
-      "size": 126113953,
-      "sha256": "401583af33662f9ed9193fd904d165e5c98bba427c61b0caa2cb240a346eb936"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.228/FB-toolbox-ads-reports-2.2.0.228-win-x64.zip",
+      "size": 126116957,
+      "sha256": "b6d1b900ff9ddfcebac2aa4b8b8344f7a776a96a3b7c36df4136e99b7457cad3"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.226",
+      "base_version": "2.2.0.227",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.227/FB-toolbox-ads-reports-2.2.0.227-from-2.2.0.226.delta.zip",
-      "size": 1450221,
-      "sha256": "5dc56489557fac9dee59c6da72522e0836c787b97af656a8319c5f267ce59951"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.228/FB-toolbox-ads-reports-2.2.0.228-from-2.2.0.227.delta.zip",
+      "size": 1268789,
+      "sha256": "7b3bd492733290587d6153a311f8a336dfa3fc186cba4c54bd26d20b3260c569"
     }
   ],
-  "notes": "# FB工具箱 数据获取版 2.2.0.227\n\n- 广告组字段暂时加载失败时自动等待、恢复原连接并核对原草稿，减少手动点击继续。\n- 广告组设置多次恢复未完成时，先处理后续账户，再回访原广告组一次；保留已完成的广告组和素材。\n- 修复排队待回访页面的渲染保持暂时失效后无法继续的问题，不重复创建、上传或发布。\n- 公共主页控件重绘、折叠或点击回执丢失时，在原广告范围内重新定位和回读。\n- 创建按钮不可用时根据页面提示区分账户/BM限制、权限、付款及首次投放设置；没有明确证据不会误报封户。\n- 连接器更新至 0.0.57，新增隔离的被动请求诊断能力；生产广告搭建仍使用原本地浏览器流程。\n\n用户主动暂停仍由用户继续。身份变化、权限限制和无法确认的写入结果会明确结束该账户并保留原因。",
+  "notes": "# FB工具箱 数据获取版 2.2.0.228\r\n\r\n- 修复选图完成后公共主页步骤过早核验、误报缺少身份回执：等待本组新广告及完整素材名生成，再设置主页。\r\n- 两个广告组复用相同素材时，按本组固定广告 ID 核对完整名称；短暂重绘只读等待，不再把前组同名素材计为重复。\r\n- 修复删除默认草稿后返回原组受阻：核对原系列后打开已记录的原组地址一次，文档切换只读重试；不重复创建、上传、删除或发布。\r\n- 修复删除后的列表切换被临时遮挡直接失败：在原账户和 BM 内有限等待，成功切换后不再次点击。\r\n- 修复跨组素材复用参数丢失，开启复用后允许不同组使用相同真实文件；每组素材仍需足量且唯一。\r\n- 修复较长素材名查询和主动暂停后的恢复，名称不截短，暂停在完整步骤边界生效。\r\n- 原浏览器新户从头测试通过：1 个系列、2 个广告组、12 条广告，含列表入口暂时不可点击后的自动恢复；所有测试广告保留草稿，没有发布。\n- 浏览器连接器沿用 0.0.57。",
   "key_id": "f4112e07706e29a2",
-  "signature": "MsglRp5mzOXNBN7FBaDgQ2vyGFuotiOzELwlVc_VeJMod0_GpLRKP1S12dAaPiIJIwqUs2xloc2HH6tgg6jsAA"
+  "signature": "Q1ZfSeNOEAhRq1ZdHDsWN9xiAIgJb7T3EpHE0s7b98fp3M4rWGz_cVLp8MHMzc-UjazhkVsAq0T-QPDcOb9gAQ"
 }
