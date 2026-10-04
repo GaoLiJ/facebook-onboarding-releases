@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.230",
-  "release_id": "ads-reports-v2.2.0.230",
+  "version": "2.2.0.231",
+  "release_id": "ads-reports-v2.2.0.231",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-04T02:54:59.025000Z",
+  "published_at": "2026-10-04T04:12:07.168000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.230/FB-toolbox-ads-reports-2.2.0.230-win-x64.zip",
-      "size": 126134689,
-      "sha256": "9540fe26211df334a5fca851691672a85859c4ac360607abdc1a99ff34bf401a"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.231/FB-toolbox-ads-reports-2.2.0.231-win-x64.zip",
+      "size": 126134640,
+      "sha256": "90258511c3e8d672d4fd248cae6425776a31836d397cee1ecb83f6cff4f58ac4"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.229",
+      "base_version": "2.2.0.230",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.230/FB-toolbox-ads-reports-2.2.0.230-from-2.2.0.229.delta.zip",
-      "size": 1822894,
-      "sha256": "b9110900e8b3dc25857023c30bd374ff091f4c17bc32711600c6a82ca815c325"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.231/FB-toolbox-ads-reports-2.2.0.231-from-2.2.0.230.delta.zip",
+      "size": 1184129,
+      "sha256": "5faf358ba9c45306d7cbfabb54c73d54290594f7c494199380e8e966bd3241a4"
     }
   ],
-  "notes": "# 数据获取版 2.2.0.230\n\n- 新增按标签、包名和日期汇总消耗，可一键复制五列登记数据；跨 BM 重复账户与重试结果自动去重。\n- 修复报告列表已显示完整记录却误判“尚未加载完成”：只检查报告列表本身的加载状态。\n- 修复新建报告已打开却误报“报告类型遮罩未挂载”：按实际弹窗和工具栏继续。\n- 已有标准报告直接打开；只有无标题报告时自动创建新的标准报告，保留原报告。\n- 已通过原浏览器连接器验证已有报告生成和从列表新建报告，核对日期、账户、金额及保存结果。\n- 修复广告组最后一次加载检查超时时被误判为控件不存在的问题。\n- 连接器沿用 0.0.57。",
+  "notes": "修复 BM 报告明确显示“这个日期范围内没有数据”时仍被误报失败的问题。\r\n\r\n- 排除报表内容区之外的头像加载标记和无关提示，正常显示“无数据”并继续处理下一账户。\r\n- 日期切换或读取过程中才出现空态时，重新核对当前账户、报告和日期后直接结束，不再重复刷新或要求空报告必须有汇总行。\r\n- 无数据不生成虚假零消耗文件，保留实际日期；原连接器版本继续为 0.0.57。\r\n\r\n已在原总 BM 浏览器中核对三个真实无数据账户，生产生成流程和 CDP/content 两条读取路径均通过。",
   "key_id": "f4112e07706e29a2",
-  "signature": "VZ80LHca0rW__rdsyocUTA175GJpciXUatb8dpZqfQP6Hkq6crCJJK0BQVPNSRn6ojUhV3sutUpzK5ofwpHgDA"
+  "signature": "wlqz-QrcAeYlQCGj4DjALAMrdtmJRCG1B30ymw_sXIt2DPvAc50KW23qgzyNqXbDBqoCwgZpAZg_TLaX-6hzCg"
 }
