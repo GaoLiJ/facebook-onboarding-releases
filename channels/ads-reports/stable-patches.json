@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.229",
-  "release_id": "ads-reports-v2.2.0.229",
+  "version": "2.2.0.230",
+  "release_id": "ads-reports-v2.2.0.230",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-03T17:53:09.017000Z",
+  "published_at": "2026-10-04T02:54:59.025000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.229/FB-toolbox-ads-reports-2.2.0.229-win-x64.zip",
-      "size": 126131609,
-      "sha256": "79f02bd72151e2f9f41eb4a0e23c1edc9cda36a696b158e57cc8df11f24379c7"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.230/FB-toolbox-ads-reports-2.2.0.230-win-x64.zip",
+      "size": 126134689,
+      "sha256": "9540fe26211df334a5fca851691672a85859c4ac360607abdc1a99ff34bf401a"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.228",
+      "base_version": "2.2.0.229",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.229/FB-toolbox-ads-reports-2.2.0.229-from-2.2.0.228.delta.zip",
-      "size": 1219129,
-      "sha256": "851625551ce75a8f784eafc0099c96f7c2468624f46bc42498b7884d1a565ac5"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.230/FB-toolbox-ads-reports-2.2.0.230-from-2.2.0.229.delta.zip",
+      "size": 1822894,
+      "sha256": "b9110900e8b3dc25857023c30bd374ff091f4c17bc32711600c6a82ca815c325"
     }
   ],
-  "notes": "修复素材窗口列表卡住与短暂读取超时导致的搭建失败：上传回执已确认且真实上传活动结束后，自动切换“全部／账户”并返回原范围，保持已选素材并继续补选。\n\n素材状态读取使用共享阶段期限、最多三次只读请求，保留具体原因和已提交状态，不重新上传。选图核对发现明确多选时自动取消多余素材，再核对本组完整素材集合继续搭建。\n\n本次仅更新数据获取版应用；浏览器连接器保持 0.0.57。更新、下载与重启操作继续在左上角版本卡片完成。",
+  "notes": "# 数据获取版 2.2.0.230\n\n- 新增按标签、包名和日期汇总消耗，可一键复制五列登记数据；跨 BM 重复账户与重试结果自动去重。\n- 修复报告列表已显示完整记录却误判“尚未加载完成”：只检查报告列表本身的加载状态。\n- 修复新建报告已打开却误报“报告类型遮罩未挂载”：按实际弹窗和工具栏继续。\n- 已有标准报告直接打开；只有无标题报告时自动创建新的标准报告，保留原报告。\n- 已通过原浏览器连接器验证已有报告生成和从列表新建报告，核对日期、账户、金额及保存结果。\n- 修复广告组最后一次加载检查超时时被误判为控件不存在的问题。\n- 连接器沿用 0.0.57。",
   "key_id": "f4112e07706e29a2",
-  "signature": "7s5DaHBKLwnbF3_mXEZLKolX1CbvJTHZ-1aRtQfmsZeKbGgnk_6q0qOlCgUV0Mf7Sjj9FNL_M0FdJzWtTKvUBw"
+  "signature": "VZ80LHca0rW__rdsyocUTA175GJpciXUatb8dpZqfQP6Hkq6crCJJK0BQVPNSRn6ojUhV3sutUpzK5ofwpHgDA"
 }
