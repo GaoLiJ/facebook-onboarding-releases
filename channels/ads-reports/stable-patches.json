@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.231",
-  "release_id": "ads-reports-v2.2.0.231",
+  "version": "2.2.0.232",
+  "release_id": "ads-reports-v2.2.0.232",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-04T04:12:07.168000Z",
+  "published_at": "2026-10-04T15:10:21.946000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.231/FB-toolbox-ads-reports-2.2.0.231-win-x64.zip",
-      "size": 126134640,
-      "sha256": "90258511c3e8d672d4fd248cae6425776a31836d397cee1ecb83f6cff4f58ac4"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232/FB-toolbox-ads-reports-2.2.0.232-win-x64.zip",
+      "size": 126140722,
+      "sha256": "dbba076cf3c8f19dd3195ff8e4d56f37b78ffb76146390eb9b7b447e38870109"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.230",
+      "base_version": "2.2.0.231",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.231/FB-toolbox-ads-reports-2.2.0.231-from-2.2.0.230.delta.zip",
-      "size": 1184129,
-      "sha256": "5faf358ba9c45306d7cbfabb54c73d54290594f7c494199380e8e966bd3241a4"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232/FB-toolbox-ads-reports-2.2.0.232-from-2.2.0.231.delta.zip",
+      "size": 1830916,
+      "sha256": "5cabd87bc8fae64ca53b4e91f18f3eba867f915a7f7e73da699a20473339e071"
     }
   ],
-  "notes": "修复 BM 报告明确显示“这个日期范围内没有数据”时仍被误报失败的问题。\r\n\r\n- 排除报表内容区之外的头像加载标记和无关提示，正常显示“无数据”并继续处理下一账户。\r\n- 日期切换或读取过程中才出现空态时，重新核对当前账户、报告和日期后直接结束，不再重复刷新或要求空报告必须有汇总行。\r\n- 无数据不生成虚假零消耗文件，保留实际日期；原连接器版本继续为 0.0.57。\r\n\r\n已在原总 BM 浏览器中核对三个真实无数据账户，生产生成流程和 CDP/content 两条读取路径均通过。",
+  "notes": "数据获取版 2.2.0.232\n\n- 修复历史报表明细不完整或排序后空表导致的生成失败，按账户、日期和字段独立读取原始响应，校验分页与 Meta 汇总。\n- 新增“只抓消耗”开关，无需创建、保存报告或生成 Excel。\n- 新增同包消耗总计和复制登记；标签按广告系列识别，GTL 显示 TL，LSH 显示 SH。\n- 改进日期提交与原报告名称保存，无数据时显示无数据，不填虚假零金额。\n\n已使用原总 BM 浏览器验证完整报表、只抓消耗、无数据和报告保存后的持久化。浏览器连接器保持 0.0.57。",
   "key_id": "f4112e07706e29a2",
-  "signature": "wlqz-QrcAeYlQCGj4DjALAMrdtmJRCG1B30ymw_sXIt2DPvAc50KW23qgzyNqXbDBqoCwgZpAZg_TLaX-6hzCg"
+  "signature": "4WGF-WRukJQDrZ5jZ5l2gXpjekOdCXkqkmbS7sOv35SZ3W2W55Fv0BlMWeXwbn9dVjSfrFchCstM0ltksAFECg"
 }
