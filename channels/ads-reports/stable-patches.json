@@ -3,28 +3,29 @@
   "edition": "ads-reports",
   "channel": "stable",
   "version": "2.2.0.232",
-  "release_id": "ads-reports-v2.2.0.232",
+  "patch_revision": 1,
+  "release_id": "ads-reports-v2.2.0.232-p1",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-04T15:10:21.946000Z",
+  "published_at": "2026-10-04T15:49:31.472000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232/FB-toolbox-ads-reports-2.2.0.232-win-x64.zip",
-      "size": 126140722,
-      "sha256": "dbba076cf3c8f19dd3195ff8e4d56f37b78ffb76146390eb9b7b447e38870109"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232-p1/FB-toolbox-ads-reports-2.2.0.232-p1-win-x64.zip",
+      "size": 126141247,
+      "sha256": "20ad53f9706b408c1eb37ba7d59575b2281a598bdfa5985175cf0eb7afaea118"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.231",
+      "base_version": "2.2.0.232",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232/FB-toolbox-ads-reports-2.2.0.232-from-2.2.0.231.delta.zip",
-      "size": 1830916,
-      "sha256": "5cabd87bc8fae64ca53b4e91f18f3eba867f915a7f7e73da699a20473339e071"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232-p1/FB-toolbox-ads-reports-2.2.0.232-p1-from-2.2.0.232.delta.zip",
+      "size": 1427792,
+      "sha256": "1ab1fbf3e2d877d0edb030275816310e14fe4d4ea5f9eeb05b480cfcb31555e6"
     }
   ],
-  "notes": "数据获取版 2.2.0.232\n\n- 修复历史报表明细不完整或排序后空表导致的生成失败，按账户、日期和字段独立读取原始响应，校验分页与 Meta 汇总。\n- 新增“只抓消耗”开关，无需创建、保存报告或生成 Excel。\n- 新增同包消耗总计和复制登记；标签按广告系列识别，GTL 显示 TL，LSH 显示 SH。\n- 改进日期提交与原报告名称保存，无数据时显示无数据，不填虚假零金额。\n\n已使用原总 BM 浏览器验证完整报表、只抓消耗、无数据和报告保存后的持久化。浏览器连接器保持 0.0.57。",
+  "notes": "数据获取版 2.2.0.232 补丁 1\n\n- 消耗汇总表底部新增醒目的全部消耗合计，按日明细和同包总计均可查看。\n- 未完成批次明确标为“已获取消耗合计”，无数据不显示虚假零合计。\n- 合计行固定在表格底部；复制登记保留原明细格式，不重复复制合计。\n\n应用版本保持 2.2.0.232，连接器保持 0.0.57。已通过相关界面冒烟、类型检查和发布包自检。",
   "key_id": "f4112e07706e29a2",
-  "signature": "4WGF-WRukJQDrZ5jZ5l2gXpjekOdCXkqkmbS7sOv35SZ3W2W55Fv0BlMWeXwbn9dVjSfrFchCstM0ltksAFECg"
+  "signature": "gKmAvWIAfaxmMVry-cU0sIxPKdI3xltY8qQx6SvUSs7Hzxkj0edTQXyHC8IkP1soL1vRwnvMKDcs4geSu6rXBw"
 }
