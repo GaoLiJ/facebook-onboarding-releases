@@ -2,30 +2,37 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.232",
-  "patch_revision": 1,
-  "release_id": "ads-reports-v2.2.0.232-p1",
+  "version": "2.2.0.233",
+  "release_id": "ads-reports-v2.2.0.233",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.212",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-04T15:49:31.472000Z",
+  "published_at": "2026-10-10T02:41:08.621000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232-p1/FB-toolbox-ads-reports-2.2.0.232-p1-win-x64.zip",
-      "size": 126141247,
-      "sha256": "20ad53f9706b408c1eb37ba7d59575b2281a598bdfa5985175cf0eb7afaea118"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.233/FB-toolbox-ads-reports-2.2.0.233-win-x64.zip",
+      "size": 126173917,
+      "sha256": "69f970b628f911b5a98a26f750ef6213ff23900d381630f67f180088e4ff4e1a"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.231",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.233/FB-toolbox-ads-reports-2.2.0.233-from-2.2.0.231.delta.zip",
+      "size": 2633060,
+      "sha256": "120bbdb4c40078dca92316f06b6331d2804c3f19431ce3dad554617e4a7e491b"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.232",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.232-p1/FB-toolbox-ads-reports-2.2.0.232-p1-from-2.2.0.232.delta.zip",
-      "size": 1427792,
-      "sha256": "1ab1fbf3e2d877d0edb030275816310e14fe4d4ea5f9eeb05b480cfcb31555e6"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.233/FB-toolbox-ads-reports-2.2.0.233-from-2.2.0.232.delta.zip",
+      "size": 2633061,
+      "sha256": "70b9599f59aa24e58c012b827ba2059a57672f3091c6d997c8a18d9c20e1f834"
     }
   ],
-  "notes": "数据获取版 2.2.0.232 补丁 1\n\n- 消耗汇总表底部新增醒目的全部消耗合计，按日明细和同包总计均可查看。\n- 未完成批次明确标为“已获取消耗合计”，无数据不显示虚假零合计。\n- 合计行固定在表格底部；复制登记保留原明细格式，不重复复制合计。\n\n应用版本保持 2.2.0.232，连接器保持 0.0.57。已通过相关界面冒烟、类型检查和发布包自检。",
+  "notes": "数据获取版 2.2.0.233（2026-10-10）\n\n- 日期控件就绪后立即操作，按页面实际状态等待；修复日期提交后页面重新加载、日历再次出现导致的超时。\n- 只抓消耗沿用当前报告，仅补必要的缺失字段；完整读出并核对通过后，后续页面加载不重复采集。\n- 包含内测期间已验证的 BM 账户范围核对、报告标签保留复用和批次输入修复。\n- 包含更新网络恢复、系统代理及签名清单备用读取，保持签名和文件完整性校验。\n- 配套浏览器连接器 0.0.59，普通正式版和补丁版通过各自更新渠道接收此版本。\n\n正式版本号以线上 2.2.0.232／232-p1 为基准递增，包含内测 236 已验证的代码。已安装较高编号内测的本机需要明确切换到正式安装目录。\n\n证据不足的空结果仍会显示未完成，不会猜测为零消耗。更新不会中断正在运行或暂停的任务，下载完成后点击“重启并更新”生效。",
   "key_id": "f4112e07706e29a2",
-  "signature": "gKmAvWIAfaxmMVry-cU0sIxPKdI3xltY8qQx6SvUSs7Hzxkj0edTQXyHC8IkP1soL1vRwnvMKDcs4geSu6rXBw"
+  "signature": "86RZynAI0alUbvYKqpLKsZw-_gWmrtm3-2IjwqPtpng_F4i2fXpDK1WCb3xR9LkmlysjYa5hmqXNg5DWPoPzDQ"
 }
