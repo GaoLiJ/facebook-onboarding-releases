@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.226",
+  "min_app_version": "2.2.0.233",
   "channel": "stable",
-  "version": "0.0.57",
-  "release_id": "browser-connector-v0.0.57",
+  "version": "0.0.59",
+  "release_id": "browser-connector-v0.0.59",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-03T06:30:03.293000Z",
+  "published_at": "2026-10-10T02:41:08.930000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.57/browser-connector-0.0.57.zip",
-      "size": 111368,
-      "sha256": "c44bd21f27e4269ae76022530cd6629c5e6dbab54d8b90951928099e4f50ebed"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.59/browser-connector-0.0.59.zip",
+      "size": 115063,
+      "sha256": "0d5f39438095d276e198ff2d70d77060905f55cdec5473803bf9d351b56b9730"
     }
   ],
-  "notes": "# 浏览器连接器 0.0.57\n\n支持工具箱 2.2.0.226 及以上版本。\n\n新增隔离的广告草稿请求观察实验，与报表捕获互斥，固定账户及草稿范围，并限制观察时间、请求数量和响应读取。仅返回收紧后的诊断结构，不返回认证内容，不重放请求，不更改生产广告搭建路径。",
-  "signature": "uqk_aocfzs7A7nz3WGuVRxfmSbxJMn5j3LT6d5v_aJstpFcluqvD7Ayii-6v-i1VFfkuqOxk0drXaY253LYmDA"
+  "notes": "浏览器连接器 0.0.59，配套数据获取版 2.2.0.233。\n\n支持日期控件的内容路径状态监听，控件就绪即继续，避免等待阶段反复扫描整页 DOM。保持 CDP 主输入路径及内容脚本备用路径。\n\n工具箱空闲时部署并确认实际运行版本。本次独立自动更新要求工具箱 2.2.0.233 或更高版本；旧版工具箱先更新应用，正式完整包已包含本连接器。",
+  "signature": "NJHqh-XB1ixG0tcz4vMEH1UsdWtu9gU2824xh7teuclQHqdoPA9VwBVOyb3AKMImTPRKRwAXwhym8QMesoQYAQ"
 }
