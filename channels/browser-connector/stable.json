@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.233",
+  "min_app_version": "2.2.0.234",
   "channel": "stable",
-  "version": "0.0.59",
-  "release_id": "browser-connector-v0.0.59",
+  "version": "0.0.60",
+  "release_id": "browser-connector-v0.0.60",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-10T02:41:08.930000Z",
+  "published_at": "2026-10-12T04:09:42.613000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.59/browser-connector-0.0.59.zip",
-      "size": 115063,
-      "sha256": "0d5f39438095d276e198ff2d70d77060905f55cdec5473803bf9d351b56b9730"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.60/browser-connector-0.0.60.zip",
+      "size": 116041,
+      "sha256": "22c355cd34ef20f76f9215e556f03e597093361d1754a78e08dc666b4450ded8"
     }
   ],
-  "notes": "浏览器连接器 0.0.59，配套数据获取版 2.2.0.233。\n\n支持日期控件的内容路径状态监听，控件就绪即继续，避免等待阶段反复扫描整页 DOM。保持 CDP 主输入路径及内容脚本备用路径。\n\n工具箱空闲时部署并确认实际运行版本。本次独立自动更新要求工具箱 2.2.0.233 或更高版本；旧版工具箱先更新应用，正式完整包已包含本连接器。",
-  "signature": "NJHqh-XB1ixG0tcz4vMEH1UsdWtu9gU2824xh7teuclQHqdoPA9VwBVOyb3AKMImTPRKRwAXwhym8QMesoQYAQ"
+  "notes": "浏览器连接器 0.0.60\n\n正式交付已在本机 234 包中验证的连接器版本，支持按日采集的单账户零数据来源核验及显式来源时区证据。\n与 FB 工具箱 2.2.0.234 及后续版本配套使用。本次 235 的选图与名称修复位于应用工作流，连接器版本没有再次递增。",
+  "signature": "uh-idvcpjyxaHG3p6fQ8FPxkdYjxtv1I0N35_EKdW_W6Vb96_egU8iKZZM1q07a16sQK0vtJjsJ1RnPxKijVDw"
 }
