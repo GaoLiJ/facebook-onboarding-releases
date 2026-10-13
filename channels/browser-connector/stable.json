@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.234",
+  "min_app_version": "2.2.0.236",
   "channel": "stable",
-  "version": "0.0.60",
-  "release_id": "browser-connector-v0.0.60",
+  "version": "0.0.61",
+  "release_id": "browser-connector-v0.0.61",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-12T04:09:42.613000Z",
+  "published_at": "2026-10-13T08:37:56.326000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.60/browser-connector-0.0.60.zip",
-      "size": 116041,
-      "sha256": "22c355cd34ef20f76f9215e556f03e597093361d1754a78e08dc666b4450ded8"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.61/browser-connector-0.0.61.zip",
+      "size": 117907,
+      "sha256": "b325a39e10308f8ab50774957fa92a55600acf78bb888d6de8e1575b88f86553"
     }
   ],
-  "notes": "浏览器连接器 0.0.60\n\n正式交付已在本机 234 包中验证的连接器版本，支持按日采集的单账户零数据来源核验及显式来源时区证据。\n与 FB 工具箱 2.2.0.234 及后续版本配套使用。本次 235 的选图与名称修复位于应用工作流，连接器版本没有再次递增。",
-  "signature": "uh-idvcpjyxaHG3p6fQ8FPxkdYjxtv1I0N35_EKdW_W6Vb96_egU8iKZZM1q07a16sQK0vtJjsJ1RnPxKijVDw"
+  "notes": "# 浏览器连接器 0.0.61\n\n新增采集实例归属凭据与浏览器原生整实例关闭能力，供采集工作流在核实归属后回收本次启动的实例。保留 CDP 主路径、content fallback 和原浏览器资料。\n\n配套数据获取版 2.2.0.236。独立连接器更新要求应用版本至少为 2.2.0.236，较早应用先完成客户端升级。",
+  "signature": "TTAeyPxG5lJ3wAxQ79dlO_PnaS3L3qo6yZ8woxs6bnK7o_7kbUw2_Akzse1f_hMEkdwMK5oIgHwzg_QqcWctAg"
 }
