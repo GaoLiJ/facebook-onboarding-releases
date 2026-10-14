@@ -2,45 +2,53 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.236",
-  "release_id": "ads-reports-v2.2.0.236",
+  "version": "2.2.0.237",
+  "release_id": "ads-reports-v2.2.0.237",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-13T08:11:54.321000Z",
+  "published_at": "2026-10-14T11:23:17.661000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.236/FB-toolbox-ads-reports-2.2.0.236-win-x64.zip",
-      "size": 126278437,
-      "sha256": "7334a8fdd345dd527ba9ecfbcde82ff24d09395e8ecd6472fd69a891c929e78c"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.237/FB-toolbox-ads-reports-2.2.0.237-win-x64.zip",
+      "size": 126289510,
+      "sha256": "240dfeb1023ded9e8c6dc40db518ee0b8a7839ce5b779e935aee5260960d5246"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.233",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.236/FB-toolbox-ads-reports-2.2.0.236-from-2.2.0.233.delta.zip",
-      "size": 2726929,
-      "sha256": "6695e8c0f7a8498ebe55ce875d0cb6795c015c1a8166f65f41300fefc83a2300"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.237/FB-toolbox-ads-reports-2.2.0.237-from-2.2.0.233.delta.zip",
+      "size": 2886101,
+      "sha256": "dd0349a2031a7971ef2c3198ce6e13efba6ecbb01c69f7899cdb916eac5944c5"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.234",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.236/FB-toolbox-ads-reports-2.2.0.236-from-2.2.0.234.delta.zip",
-      "size": 2745942,
-      "sha256": "515cc97d95f3f66aa1b53cb4170e4aaf06afb225c6df6adcb2c66d19f2da0f79"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.237/FB-toolbox-ads-reports-2.2.0.237-from-2.2.0.234.delta.zip",
+      "size": 2707099,
+      "sha256": "3e2898ff78c7e4204f57a62aff58c978306278ad981e0db32ca13d66ff5d577c"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.235",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.236/FB-toolbox-ads-reports-2.2.0.236-from-2.2.0.235.delta.zip",
-      "size": 2583251,
-      "sha256": "5aaceaeaebd86dc4868b0ba9b6088b4bf4422ca6a0dd1c76063cb6b63b91b2df"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.237/FB-toolbox-ads-reports-2.2.0.237-from-2.2.0.235.delta.zip",
+      "size": 2768714,
+      "sha256": "495dc9e868d29868c997f557d0c7b94bccde1ad36d766d042927b4738ebe2567"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.236",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.237/FB-toolbox-ads-reports-2.2.0.237-from-2.2.0.236.delta.zip",
+      "size": 2682090,
+      "sha256": "4b97df322e3eb7d7cb31f0e3eec57c805fb25dde77b3ca4975e8a881dc3e02f3"
     }
   ],
-  "notes": "# 数据获取版 2.2.0.236\n\n- 采集页面统一选择昨日或指定日期，一次为本机已配置业务包创建采集任务；支持逐包结果、重复请求幂等与部分失败隔离。\n- 定时采集按北京时间设置，每个业务包仍按自身时区确定采集日期；保留既有计划的启停状态与下次执行时刻。\n- 优化工作台、账户明细、任务结果和通知交互，简化重复标题与嵌套展示。\n- 修复历史消耗读取不完整时的分段恢复，保留金额核验和原日期恢复。\n- 完善广告草稿的原广告组定位、浏览器实例提示，以及采集实例归属和原生关闭。\n- 随包连接器更新为 0.0.61；默认服务为 https://fb.grenw.cn。\n\n## 历史版本升级\n\n215 及之后的数据获取版可在程序内升级。233、234、235 提供增量包，其余历史版本自动选用完整包；增量基线不适用时由更新器回退到完整包。\n\n212–214 的旧更新器存在 ASAR 安装限制，需要下载本次完整 ZIP，解压到新目录后启动 `FB工具箱.exe`，完成一次完整包升级。原用户数据和浏览器资料保留。其他 edition 保持独立频道，不能跨版本类型安装。\n\n升级在任务结束后进行，运行中或暂停中的任务不会被更新打断。",
+  "notes": "# FB 工具箱数据获取版 2.2.0.237\n\n- 修复 BM 报告标签休眠、零视口和原窗口最小化时的自动恢复，按原标签的刷新回执建立后台渲染。\n- 增加“今日（实时）”快捷日期，重新读取今日原始响应；保留 Meta 实时明细与独立汇总，完整账户、日期、分页和 20 列校验继续执行。\n- 修复实时首次读取误占恢复额度、以及已验证报告重载后显示无标题导致改名保存未完成的问题。\n- 同步消耗筛选、左侧日期快捷项和时区、自适应趋势图、滚动排行，以及业务包全部账户展开的界面调整。\n\n现场验收：在用户指定原 Chrome 实例、原窗口最小化和报告标签休眠条件下，通过正常批次任务一次自动生成指定 7 个 BM 的全部文件，失败 0、改名保存未完成提示 0。7 个文件均为完整 20 列，46 条明细及独立汇总与本次 Meta 原始响应逐项一致。\n\n源码提交：8621d6082666a16338e2d2f57553af58d86d4af6。配套连接器仍为 0.0.61。",
   "key_id": "f4112e07706e29a2",
-  "signature": "k6lPl2HVYKAqAV6L_dk1jFmdoiWoauHo0dyLWL7UO4uPPFI0JTXT3L3Van7IK0GeLgPpZqN6c-xD9ecglU6UAA"
+  "signature": "4-_BWHhwVzMa3PgfY9CFhfdPggUXLszWAmX3CnUY3hlLiUC-UuxGYIOTE_rMWT5OoSfk9G0PpifSxF72rMHrBg"
 }
