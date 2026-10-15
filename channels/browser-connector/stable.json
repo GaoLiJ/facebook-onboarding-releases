@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.236",
+  "min_app_version": "2.2.0.240",
   "channel": "stable",
-  "version": "0.0.61",
-  "release_id": "browser-connector-v0.0.61",
+  "version": "0.0.63",
+  "release_id": "browser-connector-v0.0.63",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-13T08:37:56.326000Z",
+  "published_at": "2026-10-15T14:55:34.473000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.61/browser-connector-0.0.61.zip",
-      "size": 117907,
-      "sha256": "b325a39e10308f8ab50774957fa92a55600acf78bb888d6de8e1575b88f86553"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.63/browser-connector-0.0.63.zip",
+      "size": 122139,
+      "sha256": "a973252dc3326c1407abfead5bac75f978a912de9682ad67350643d00f2d9231"
     }
   ],
-  "notes": "# 浏览器连接器 0.0.61\n\n新增采集实例归属凭据与浏览器原生整实例关闭能力，供采集工作流在核实归属后回收本次启动的实例。保留 CDP 主路径、content fallback 和原浏览器资料。\n\n配套数据获取版 2.2.0.236。独立连接器更新要求应用版本至少为 2.2.0.236，较早应用先完成客户端升级。",
-  "signature": "TTAeyPxG5lJ3wAxQ79dlO_PnaS3L3qo6yZ8woxs6bnK7o_7kbUw2_Akzse1f_hMEkdwMK5oIgHwzg_QqcWctAg"
+  "notes": "# 浏览器连接器 0.0.63\n\n配套数据获取版 2.2.0.240，独立更新要求应用至少为 2.2.0.240。\n\n增加受限的原生离开网站提示处理：仅对已核验的原标签、账户、BM、原编辑对象及待定导航进行取消，保留现有草稿，不放行通用弹框操作。报表捕获增加独立文档标记，保留 CDP 主路径与 content fallback、完整日期及账户范围核验。\n\n连接器内容来自已通过包内自检的数据获取版 240 实际产物；不会主动创建或发布广告。",
+  "signature": "Sv_MHhE87J06gxXmigl2v4FjaXNku5AdV_0iF8HP5-skJasRDGChfNBXYKsnlWGKbPYKsXiIq_igRhT0UAzNCg"
 }
