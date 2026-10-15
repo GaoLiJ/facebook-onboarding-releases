@@ -2,29 +2,77 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.239",
-  "release_id": "ads-reports-v2.2.0.239",
+  "version": "2.2.0.240",
+  "release_id": "ads-reports-v2.2.0.240",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-15T08:57:15.839000Z",
+  "published_at": "2026-10-15T14:55:08.966000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.239/FB-toolbox-ads-reports-2.2.0.239-win-x64.zip",
-      "size": 126306106,
-      "sha256": "bb5cae1157e20628df79706b058946bcd231998336e231d153778e5f631118c2"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-win-x64.zip",
+      "size": 126334439,
+      "sha256": "5292a5a014ee470d307dd6b8f326667301632a05128afd59e473c986bfe51e65"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.233",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.233.delta.zip",
+      "size": 2881961,
+      "sha256": "8ce5418b38b2b19c20d3cf836c16aa4ce8dacc45350f0879024d744b4c353535"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.234",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.234.delta.zip",
+      "size": 2786457,
+      "sha256": "024c49c56df8ab1d724bd35398eb8c41d25ec527747e1c04aa95242c29a91eb3"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.235",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.235.delta.zip",
+      "size": 2866649,
+      "sha256": "920543fcfa5ac8ae12595755db967cb0d2ca57aed39c91dcccf61f66e98e5dd8"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.236",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.236.delta.zip",
+      "size": 2874624,
+      "sha256": "5c93518dddfd1098d36e2ffad70443b5f63c8a364346188d761f3bc008cba533"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.237",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.237.delta.zip",
+      "size": 2790230,
+      "sha256": "bce7e154518de077decb180b7571affbb702185b7ccdd3406133ae7b1d95ce1d"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.238",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.239/FB-toolbox-ads-reports-2.2.0.239-from-2.2.0.238.delta.zip",
-      "size": 2181632,
-      "sha256": "32fe479bb042378df465a1561cdc7aa04d604033bf7120f6a3a8c6b8cdbb2adb"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.238.delta.zip",
+      "size": 2702757,
+      "sha256": "abfc43082600430189adfca617285d98feb6c0b0db8eb3106e7a921d2006b545"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.239",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.240/FB-toolbox-ads-reports-2.2.0.240-from-2.2.0.239.delta.zip",
+      "size": 2421083,
+      "sha256": "f8b0b38ad38338d269cecbff36c0857fa3efa95a81f9a29d76720c415361591c"
     }
   ],
-  "notes": "修复新增客户查重、客户及资产搜索被误报“不支持的工作空间操作”的问题，支持名称中的 !'()* 等合法字符；补齐“采集全部已配置包”、单包采集及北京时间定时计划的桌面请求校验。\n\n按包采集向普通用户显示绑定的浏览器名称和个号，管理员另可查看明确标注的设备名称。本机绑定优先显示浏览器当前名称，其他设备使用其保存的浏览器名称。\n\n定时采集新计划默认关闭；开启前展示每天北京时间、业务包、执行设备及自动上传说明，必须由用户明确点击“同意并开启”。取消不启用计划，停用可直接保存。\n\n批量绑定账户支持统一输入一次 BM，并根据已有账户及完整客户、包名识别所属业务包；多候选由用户确认。绑定弹窗内可直接新建业务包并自动选中，保留已填写的账户、BM、预算和历史起点。\n\n采集绑定支持按完整客户和包名推荐浏览器，保留已有绑定及手动选择；业务包统计日显示对应的北京时间起止区间，便于核对跨时区日期。\n\n消耗明细将账户名称和 ID 以 12px 字号显示在同一行，长名称可查看全文提示并复制，账户 ID 保持完整字符串并支持复制。\n\n设计师汇总固定显示独立的“未识别”行：已有采集且全部识别时显示 0.00，可直接进入“未识别明细”。合计继续使用服务端包含未识别的原总额，不重复累加；尚未采集保留未知状态。\n\n新增“未识别明细”，由服务器按权限、日期及业务条件先过滤再分页和计数，金额、趋势及业务包排行使用相同范围。自动未识别和人工明确留未识别均可查看；管理员或账户本人可通过既有归属更正流程处理，财务只读，更正后列表与汇总刷新。已采集且没有未识别广告显示 0.00，完全未采集仍显示未采集。\n\n历史消耗采集兼容整页结束后只有表头的正常末页，继续严格检查分页、独立账户汇总和金额。新开的原浏览器 Profile 使用可正常渲染的后台小窗，保留已打开的用户窗口；启动回执不明时停止重试和关闭操作。\n\n连接器保持 0.0.61。正式 238 支持增量升级，账户及本地数据保留；最低自动升级版本仍为 215，212～214 需一次完整包手动升级。",
+  "notes": "修复消耗页采集完整度把包时区尚未结束的今天算成缺失的问题，与按包采集统一使用已结束统计日；已有真实今日快照仍保留。420＋70 个账户日在相同历史范围内显示 490／490。\r\n\r\n修复广告名称“ - 广告副本”、明确副本编号和 Copy 尾缀导致已有设计师简称失配的问题，继续使用组织名录的 LU、CR、YX、ZPP、XGY 等独立简称。未识别列表及归属详情显示实际原因，设计师选项附简称；不增加素材记忆功能，原人工日期更正优先，源名称和金额保持不变。\r\n\r\n云端历史消耗采集可从当前实例唯一匹配的 BM／入口账户已保存报告创建后台任务副本；共用 BM 的完整日期范围选择、完整账户范围校验和精确字段配置。原报告页面不改动、不保存。模板不明确时使用独立查询，身份漂移立即停止；明确无数据日期不再先等待不存在的表头。主查询一次读取整段日期，独立账户总额与零消耗证明继续核对。\r\n\r\n新增 iOS 投放流程：系列中设置预算后启用 iOS 14+ 并选择应用，广告组继承原系列应用，支持应用安装量最大化。iOS 原系列、原广告组和默认广告之间使用已核验对象的内部入口切换，减少离开网站确认框造成的中断；不重复创建或上传。原 Android 流程保持兼容。\r\n\r\niOS 系列名自动带投放设备标记，并保留小写负责人简称，例如 `Cyberads_Budhiya Cash_IN_gtl_ios_appinstall_1015_1`；Android 沿用原命名规则。\r\n\r\n本轮在指定的 1003 实例完成四个账户的 iOS 草稿实测：每户 1 系列、1 广告组、4 素材广告，50 USD 日预算、印度、应用安装量最大化；16 条广告及默认草稿清理独立核对通过，全程未发布广告。此为源码生产工作流验收，未将其写成 GUI 批次入口或本次安装包的再次真站验收。此前实时 BM 报表故障的修复已通过专项验证，本轮尚未现场重跑该实时任务。\r\n\r\n配套连接器为 0.0.63，增加已限定导航范围内的原生离开网站提示处理；更新脚本兼容 Windows PowerShell 5 的中文编码。233～239 均准备增量升级；账户及本地数据保留，212～214 仍需一次完整包手动升级。",
   "key_id": "f4112e07706e29a2",
-  "signature": "cgj0tNKb5YyeXbYhRluulhTfSvQ0_LP0l21Rq9qbzf25z246YRM1MClI8NeSt0mumL4cXO9_ZDQgu4KyOdUfCQ"
+  "signature": "O6fzdKTwjJC8DbkYOdodPeVOjQj5JaPrLxZ1mj1pyS7qHHtHlLBfXOmulfIgbl0oaljlOOpnEBRgPA0pW-9wDA"
 }
