@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "component": "browser-connector",
-  "min_app_version": "2.2.0.240",
+  "min_app_version": "2.2.0.245",
   "channel": "stable",
-  "version": "0.0.63",
-  "release_id": "browser-connector-v0.0.63",
+  "version": "0.0.64",
+  "release_id": "browser-connector-v0.0.64",
   "protocol_version": 1,
   "min_supported_version": "0.0.52",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-15T14:55:34.473000Z",
+  "published_at": "2026-10-21T01:59:49.507000Z",
   "artifacts": [
     {
       "platform": "browser-extension",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.63/browser-connector-0.0.63.zip",
-      "size": 122139,
-      "sha256": "a973252dc3326c1407abfead5bac75f978a912de9682ad67350643d00f2d9231"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/browser-connector-v0.0.64/browser-connector-0.0.64.zip",
+      "size": 125010,
+      "sha256": "97504b048e19da816bb830c812383c6dcedb343752221615798dc2def460cf82"
     }
   ],
-  "notes": "# 浏览器连接器 0.0.63\n\n配套数据获取版 2.2.0.240，独立更新要求应用至少为 2.2.0.240。\n\n增加受限的原生离开网站提示处理：仅对已核验的原标签、账户、BM、原编辑对象及待定导航进行取消，保留现有草稿，不放行通用弹框操作。报表捕获增加独立文档标记，保留 CDP 主路径与 content fallback、完整日期及账户范围核验。\n\n连接器内容来自已通过包内自检的数据获取版 240 实际产物；不会主动创建或发布广告。",
-  "signature": "Sv_MHhE87J06gxXmigl2v4FjaXNku5AdV_0iF8HP5-skJasRDGChfNBXYKsnlWGKbPYKsXiIq_igRhT0UAzNCg"
+  "notes": "连接器 0.0.64：补齐后台渲染初始化超时的有界恢复，增加报表虚拟视口恢复与真实尺寸核对。不会激活标签或恢复窗口；原有输入、上传与广告发布动作不会重放。配合 245 补丁 1 使用。",
+  "signature": "MaEsrI9_GDVvbbHReB0o-5H6_eGDYbV9hu6fBBIA19nbFBDDkTIjImCLOmCvRpK5u55NRcs6as3RX-hopkKBAg"
 }
