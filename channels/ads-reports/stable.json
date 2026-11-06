@@ -2,117 +2,125 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.245",
-  "release_id": "ads-reports-v2.2.0.245",
+  "version": "2.2.0.246",
+  "release_id": "ads-reports-v2.2.0.246",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-10-20T18:29:35.574000Z",
+  "published_at": "2026-11-06T10:25:19.071000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-win-x64.zip",
-      "size": 126354008,
-      "sha256": "21c7b8e450fc64cae50c8fc3ab0c98a9f3025956c9c80da05dde4ac4f7b8e9dd"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-win-x64.zip",
+      "size": 126463596,
+      "sha256": "a23c72035cdcb116356a99cfc1b695d884b48c4d5e1ea59c190dbcc894ab7c3d"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.233",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.233.delta.zip",
-      "size": 2949614,
-      "sha256": "c7392c746552d5d51276df037675ddd8ecb11dfc25cff1ed307b4adc8131c674"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.233.delta.zip",
+      "size": 3048260,
+      "sha256": "bc9d70ae73666fe7bc8f9edb61cd99472130362717796b611bcef8301f5eacb6"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.234",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.234.delta.zip",
-      "size": 2854122,
-      "sha256": "e5ea7ec90245dbe34fc29a1bf0c2d1ea41cac5621f12d77bb9149c96026699e3"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.234.delta.zip",
+      "size": 2958315,
+      "sha256": "d014971cd62a08995a4583fdb97f289d22cbf8dd59848152b16c3a3a01b18747"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.235",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.235.delta.zip",
-      "size": 2934283,
-      "sha256": "8d72b25ddc929b9353f9638dd82029c9abb296702388e1e011b50f2a4e4b6bef"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.235.delta.zip",
+      "size": 3038506,
+      "sha256": "ffc355f4178fc9ca6eba31bfcdf41782819d66cddab10aefac6c757ecd69cd47"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.236",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.236.delta.zip",
-      "size": 2947684,
-      "sha256": "f580d54b9a5a7ceb78c3eee68efac31585cd332d8eb00e91bab876991ec57a95"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.236.delta.zip",
+      "size": 3051894,
+      "sha256": "715df3d95c465817a17d2193cb1bbf5402ba9721c9b7437644efd61cd4298b0c"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.237",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.237.delta.zip",
-      "size": 2857879,
-      "sha256": "5aa4943e23062a9af61864a1fe4c13cfdbb3df6365750de5e583addbb38fc40d"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.237.delta.zip",
+      "size": 2962087,
+      "sha256": "692cbc9171d72c9e3c3e31b378f3bc4d36311c3d8dad02d9aef6e5ddcd784594"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.238",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.238.delta.zip",
-      "size": 2798574,
-      "sha256": "4a3c972c61759bac43e61a2005cfcb1ceb681269a713519370dc5f4e469bc38f"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.238.delta.zip",
+      "size": 2902787,
+      "sha256": "8d85cc707ade49f00aea7e663eb7754542a5aa23bbc2b8986f11f36995350920"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.239",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.239.delta.zip",
-      "size": 2654451,
-      "sha256": "fba9188f98ab528340940c21f4e005503875edb3fb70526aee8c4e6f1bb6c487"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.239.delta.zip",
+      "size": 2902753,
+      "sha256": "de5dcf12609d7f18dc586aa4293544d7e4a8b79068c3dea56dea9137baac544a"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.240",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.240.delta.zip",
-      "size": 2387422,
-      "sha256": "16e61ba9f1b1e970ba9201a40ce20e7be707bfe45904cc1b0207aeb608b69abc"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.240.delta.zip",
+      "size": 2898897,
+      "sha256": "ea0cf004f7a5c0706b7c0ecdab0ac71c1ba4083239ba76c355ff4220325279e0"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.241",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.241.delta.zip",
-      "size": 1979747,
-      "sha256": "11d4341850f79ef88fa3308693682ad7209423391b08807e5986dcaa8e2cb39d"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.241.delta.zip",
+      "size": 2898889,
+      "sha256": "9236cc4058e29d26015024eabd1617d6155d89e1adf53821cd1445787812d17f"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.242",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.242.delta.zip",
-      "size": 1940863,
-      "sha256": "f6d1bd486c1cbb23e919bc1e3f2a80911b4c0062f05843d3f319c126808cec36"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.242.delta.zip",
+      "size": 2888895,
+      "sha256": "67c21fd48232451df144519f5def082b02cd05365f82fa3bf3a77c8cf8574869"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.243",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.243.delta.zip",
-      "size": 1662655,
-      "sha256": "5c89aefbeb2f2594b3de37ff9c34cf346411a885915a4e83bffd6929566645da"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.243.delta.zip",
+      "size": 2883671,
+      "sha256": "3ca0ecbda89ef7f5f611a619dd8ec903a767f65840fc3c96e2143740938f7044"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.244",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.245/FB-toolbox-ads-reports-2.2.0.245-from-2.2.0.244.delta.zip",
-      "size": 1386483,
-      "sha256": "ef0dd2fc67eb0487b9076142c7ee062bbe9752918c7d7295d873a700bdbc44f3"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.244.delta.zip",
+      "size": 2883701,
+      "sha256": "57899ed2daa0961d12f1f6667fe02ceb5149db2c41735fd7783aa1c408f0b185"
+    },
+    {
+      "kind": "delta",
+      "base_version": "2.2.0.245",
+      "platform": "windows-x64",
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246/FB-toolbox-ads-reports-2.2.0.246-from-2.2.0.245.delta.zip",
+      "size": 2867327,
+      "sha256": "a3cc091883f250c2686f9de254c8f9f7cb7df22011d1402b6aa24c16d4f1fab3"
     }
   ],
-  "notes": "# 数据获取版 2.2.0.245\n\n- 修复 iOS 系列预算后开关、账户已绑定应用选择与保存确认卡顿，支持中英文页面；应用选择后取消 Apple SKAdNetwork 报告勾选，广告组继承原系列应用。\n- 通过已核验的原系列、广告组入口继续搭建；删除默认广告后使用内部编辑入口返回，避免整页跳转触发离开网站确认框。\n- 应用与控件回读复用当前文档身份，减少重复扫描和失焦等待；仍核对账户、BM、对象、应用商店产品及保存结果。Meta 明确素材上传失败时保留现场，不重复上传或误计为完成。\n- 修复历史 BM 系列名称、主体简称识别以及账户范围延迟返回时的兼容问题。\n- 完整 20 列、三列广告消耗、四列含单日与只抓消耗继续共用整段原始响应捕获和自动续页；按包上传前保留广告日与独立账户日的精确对账。\n- 提供 233～244 的增量包；215～244 支持直接更新，缺少合适增量或基线不一致时使用完整包。212～214 需要一次手动完整升级；同号 245 内测需使用本次正式完整包替换，未来更高正式版本可正常更新。\n\n连接器保持 0.0.63；本轮无 API/Web 或数据库迁移。\n\n验证：本轮 iOS 通过原 FB 工具箱连接器运行生产源码，三户各 6 条草稿完成核验，全部未发布；另有一户 Meta 素材上传失败保留未通过。已有草稿的应用点选约 4.5 秒，连同开关及保存校验约 7.8 秒，耗时随 Meta 页面与保存状态变化，不代表所有首次搭建耗时。\n\n请在任务结束后通过客户端正常更新并重启生效。",
+  "notes": "# 数据获取版 2.2.0.246\n\n- 工作台首页集中展示昨日消耗、日期范围趋势、业务包花费分布、采集进度与账户状态，支持直接进入相关账户和任务。\n- 新增个人日报待办，支持完成/恢复、调整提醒时间和排序；沿用业务包时区及角色权限。\n- 客户名录改为卡片，可直接进入对应客户账户；账户名称完整展示，长名称可换行，客户/业务包归属收在名称下方。\n- 账户目录区分客户、业务包和批次，默认折叠，搜索后恢复原浏览状态。修复重复滚动、空滚动槽与窗口缩放后的布局问题，保留拖选、右键及批量维护。\n- 统一桌面与网页的导航、表单和通知样式，每次提示独立显示并带倒计时，可按需查看详情。\n- 修复小窗口展开主体消耗明细时底部汇总被裁切的问题，保留面板拖动调整。\n\n本版本配套工作台 API 与数据库 V28。浏览器连接器保持 0.0.64。",
   "key_id": "f4112e07706e29a2",
-  "signature": "mTZGIHzPKn--4W-KKsAOgVjiouwdHKaSwUaejrrgwmQRiTrmhapX305g4zxrpnJf1LRN5t4NI5dB20Uwaj6KBg"
+  "signature": "-nunbAUZCiIGEtnzCrwh0zqaMd-zoS26tzuu-fQEqnGWecs8bnyMN0M16SlrgcFdb6qPoEBIt5JwDfJ3aVPiBQ"
 }
