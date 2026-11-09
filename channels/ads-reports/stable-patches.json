@@ -2,30 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.246",
-  "patch_revision": 1,
-  "release_id": "ads-reports-v2.2.0.246-p1",
+  "version": "2.2.0.247",
+  "release_id": "ads-reports-v2.2.0.247",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-11-07T10:40:38.951000Z",
+  "published_at": "2026-11-09T14:11:06.664000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246-p1/FB-toolbox-ads-reports-2.2.0.246-p1-win-x64.zip",
-      "size": 126464410,
-      "sha256": "39f7572ccca5046dacffacc1d68f0d318a09044c5706c0c2b86ca8d10a6d10b1"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.247/FB-toolbox-ads-reports-2.2.0.247-win-x64.zip",
+      "size": 126467173,
+      "sha256": "b435103f2b09b89449b4dd7d1f55c7c1220608bcbe5afe43a50ba51c7036d20d"
     },
     {
       "kind": "delta",
       "base_version": "2.2.0.246",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.246-p1/FB-toolbox-ads-reports-2.2.0.246-p1-from-2.2.0.246.delta.zip",
-      "size": 1054983,
-      "sha256": "cade05b2fbfc64f8746306e3a861253fc98394e926e89cf15df4ff7234cebb84"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.247/FB-toolbox-ads-reports-2.2.0.247-from-2.2.0.246.delta.zip",
+      "size": 2443496,
+      "sha256": "f31a046df758fae3875e0c407915fa414277da7985a15ee34bb8b359091603d3"
     }
   ],
-  "notes": "FB 工具箱数据获取版 2.2.0.246 补丁 1\r\n\r\n- 修复广告组设置和公共主页选择阶段的“需要权限”提示无法关闭、导致搭建中断的问题。\r\n- 修复新版地区关闭控件仅在悬停时出现时，多余地区无法移除的问题；移除后复核所选国家。\r\n- 保留原账户和广告对象校验，权限提示关闭后仅续接受阻步骤。\r\n\r\n应用与 Windows 版本保持 2.2.0.246，补丁号为 1，浏览器连接器保持 0.0.64。提供 246 原版增量和完整包，仅更新补丁频道。\r\n真实连接器已完成三户各 1:1:3 草稿验收，购物事件、墨西哥地区及保存状态均已核对；本轮未发布广告。\r\n\n构建源码：`0c5f82c6e4a24773e181757b282faaa7a8e22ad9`。",
+  "notes": "数据获取版 2.2.0.247\r\n\r\n- “只抓消耗”按 BM 报表总额采集，依次点击两次报表刷新按钮，仅采用第二轮响应；保留原单日和多日选择顺序，修正提交日期后的完成判断。\r\n- 兼容新版英文报表的已全选账户文案，复用休眠报表时等待页面恢复，尊重“保留并复用标签页”开关。\r\n- 广告搭建在草稿完成与发布前再次核对成效目标和应用事件。\r\n- 调整工作台、BM 报表和广告页布局，改善小窗口滚动、版本显示及保存后列表操作。\r\n\r\n连接器仍为 0.0.64。专项验证、指定五份原报表采集及包内自检通过；未重复运行全量测试。正式 246 原版提供增量，246-p1 及其他受支持版本使用完整包。旧 247 内测与正式版同号，请下载正式完整包解压到新目录后启动。",
   "key_id": "f4112e07706e29a2",
-  "signature": "LCx6YH23Jpxnxkh54RspqBJwUtIgVdY75cBQJP7AP8vupv9stNCx5lInEAWp5LBcirpLCUvpXcwMlKn_0lEfDA"
+  "signature": "bet9ogt7WC_asIb5qXhl-4w78qOTnaoz1qTYqj2PJO0c56aZ3xcQgdX2kHcI2HlLU66uduEspwfK7AqA5bm-DQ"
 }
