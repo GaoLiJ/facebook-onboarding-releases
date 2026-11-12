@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.247",
-  "release_id": "ads-reports-v2.2.0.247",
+  "version": "2.2.0.248",
+  "release_id": "ads-reports-v2.2.0.248",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-11-09T14:11:06.664000Z",
+  "published_at": "2026-11-12T09:25:54.185000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.247/FB-toolbox-ads-reports-2.2.0.247-win-x64.zip",
-      "size": 126467173,
-      "sha256": "b435103f2b09b89449b4dd7d1f55c7c1220608bcbe5afe43a50ba51c7036d20d"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.248/FB-toolbox-ads-reports-2.2.0.248-win-x64.zip",
+      "size": 126471552,
+      "sha256": "5d17852131cdc13b065f02906e7c4d90923489c329fdf6bb08eb54f0b9bebcfa"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.246",
+      "base_version": "2.2.0.247",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.247/FB-toolbox-ads-reports-2.2.0.247-from-2.2.0.246.delta.zip",
-      "size": 2443496,
-      "sha256": "f31a046df758fae3875e0c407915fa414277da7985a15ee34bb8b359091603d3"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.248/FB-toolbox-ads-reports-2.2.0.248-from-2.2.0.247.delta.zip",
+      "size": 2252275,
+      "sha256": "320f495ca89af039e93b72d794484a61692b449db1854d5bbca5fb8867474241"
     }
   ],
-  "notes": "数据获取版 2.2.0.247\r\n\r\n- “只抓消耗”按 BM 报表总额采集，依次点击两次报表刷新按钮，仅采用第二轮响应；保留原单日和多日选择顺序，修正提交日期后的完成判断。\r\n- 兼容新版英文报表的已全选账户文案，复用休眠报表时等待页面恢复，尊重“保留并复用标签页”开关。\r\n- 广告搭建在草稿完成与发布前再次核对成效目标和应用事件。\r\n- 调整工作台、BM 报表和广告页布局，改善小窗口滚动、版本显示及保存后列表操作。\r\n\r\n连接器仍为 0.0.64。专项验证、指定五份原报表采集及包内自检通过；未重复运行全量测试。正式 246 原版提供增量，246-p1 及其他受支持版本使用完整包。旧 247 内测与正式版同号，请下载正式完整包解压到新目录后启动。",
+  "notes": "FB工具箱 数据获取版 2.2.0.248\r\n\r\n- 素材查找优先匹配优化师、产品、国家和日期目录，再根据同前缀文件定位；支持跨目录查找，取消原 2 万项和 16 层限制。\r\n- 素材按真实文件去重，按本批所需数量核对，保留水印目录跳过与同名冲突提示。\r\n- BM 报表保留页暂不主动休眠，复用浏览器自行休眠页仍自动唤醒；任务只使用本次确认的 BM 名单。\r\n- 明确、稳定的所选日期无数据状态可正常继续；报表名称和本地汇总使用账户客户字段，兼容历史报告。\r\n- 工作台仅显示当前 BM 绑定，与已更新的服务端规则保持一致。\r\n\r\n连接器保持 0.0.64。启动性能已完成问题定位，本版尚未包含启动速度优化。",
   "key_id": "f4112e07706e29a2",
-  "signature": "bet9ogt7WC_asIb5qXhl-4w78qOTnaoz1qTYqj2PJO0c56aZ3xcQgdX2kHcI2HlLU66uduEspwfK7AqA5bm-DQ"
+  "signature": "evQMzY_eUt6qfcHkykRUAp2o6pkLc_IeoPTxJQrleXXVi0Du3GS6xzGXUBPbgv38kcz31BNaCgf4YWY9QSWTDQ"
 }
