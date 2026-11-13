@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "onboarding",
   "channel": "stable",
-  "version": "2.2.0.217",
-  "release_id": "onboarding-v2.2.0.217",
+  "version": "2.2.0.218",
+  "release_id": "onboarding-v2.2.0.218",
   "protocol_version": 1,
-  "min_supported_version": "2.2.0.212",
+  "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-09-26T12:34:24.777000Z",
+  "published_at": "2026-11-13T07:39:16.729000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.217/FB-toolbox-onboarding-2.2.0.217-win-x64.zip",
-      "size": 174633333,
-      "sha256": "ec0e477374b8737f3d2dc48ab2b60c38ec4393c0e51e28f3ea76379d90d17df8"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.218/FB-toolbox-onboarding-2.2.0.218-win-x64.zip",
+      "size": 174823374,
+      "sha256": "ffd931ed1c783a2cc93cceb4d0ca7494a908c39eead9d570e104ba429012cd48"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.215",
+      "base_version": "2.2.0.217",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.217/FB-toolbox-onboarding-2.2.0.217-from-2.2.0.215.delta.zip",
-      "size": 606686,
-      "sha256": "2722563d8cfeae7b3e069a267667502a70cb24e359c3c4a773f44849f7e3ecac"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/onboarding-v2.2.0.218/FB-toolbox-onboarding-2.2.0.218-from-2.2.0.217.delta.zip",
+      "size": 1207947,
+      "sha256": "6368adc15c38472c8be8f555ea4c0a62e1496c54edf3a9307cb2c937bfc857cc"
     }
   ],
-  "notes": "修复点击“重启更新”后工具箱未重新打开的问题。更新进程退出后，新版窗口保持运行；兼容从 215、216 旧更新器首次升级，更新失败时恢复旧版的窗口也独立运行。\r\n\r\n数据获取版和开户版同步修复。浏览器连接器仍为 0.0.52，无需刷新或升级扩展。保留任务结束后由用户点击重启更新的行为。\r\n\r\n验证：真实 Windows / Electron 的旧更新器交接、新更新器重启和回滚启动；更新进程退出后窗口可见、渲染器持续响应。发布包同时验证签名、完整包/增量重建、文件删除、完整性和版本一致性。",
+  "notes": "开户版 2.2.0.218\r\n\r\n新增 YM、LUX 开户代理，统一默认链接和账户命名；代理选项放在浏览器后，开户链接放在资料栏最前面。\r\n\r\n修复营业执照名称混入标签、短行方向误判及地址末字漏识；数字段按原图留白分段后由模型复读，保留产籍号、楼层之间的分隔，核验冲突不再忽略数字黏连。\r\n\r\n源码验证：61 张原图、183 个字段按保留数字分隔规则通过，4 张压缩样本、28 组核验入口及相关专项测试通过。\r\n\r\n215、217 用户可通过程序内更新；200 等低于 215 的旧版请下载完整 ZIP，解压到新目录后启动 FB工具箱.exe，完成一次手动升级。运行中的任务不会被强制中断，请待任务结束后点击重启更新。",
   "key_id": "f4112e07706e29a2",
-  "signature": "dPqekJjsvOu3bRr_06uKrCLewUjS6p_iPXCVRdmfp1QCe64HMf61q6iuDnxWmz76wkJe7mg5E6EvxgC2sf0LAg"
+  "signature": "hUOo27oOhe0_6ED_HBWS4kdOlXFD92xjuRloxw4eoUjipmRgMvJq0F-Oj9nnA4v2IHP30oUb5roF2-GUSVk8Ag"
 }
