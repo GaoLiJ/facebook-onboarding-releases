@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.248",
-  "release_id": "ads-reports-v2.2.0.248",
+  "version": "2.2.0.249",
+  "release_id": "ads-reports-v2.2.0.249",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-11-12T09:25:54.185000Z",
+  "published_at": "2026-11-18T12:17:53.750000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.248/FB-toolbox-ads-reports-2.2.0.248-win-x64.zip",
-      "size": 126471552,
-      "sha256": "5d17852131cdc13b065f02906e7c4d90923489c329fdf6bb08eb54f0b9bebcfa"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.249/FB-toolbox-ads-reports-2.2.0.249-win-x64.zip",
+      "size": 126521430,
+      "sha256": "d6de6f0bb94130dd8aa7f5342e5167075564080ec1b7ae71e4cd9f221ed5ab20"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.247",
+      "base_version": "2.2.0.248",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.248/FB-toolbox-ads-reports-2.2.0.248-from-2.2.0.247.delta.zip",
-      "size": 2252275,
-      "sha256": "320f495ca89af039e93b72d794484a61692b449db1854d5bbca5fb8867474241"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.249/FB-toolbox-ads-reports-2.2.0.249-from-2.2.0.248.delta.zip",
+      "size": 2601643,
+      "sha256": "4aeaef48efc623875710fdf4cf67c3fa221f2e58ea1e773c6b8b2eddb4ec941b"
     }
   ],
-  "notes": "FB工具箱 数据获取版 2.2.0.248\r\n\r\n- 素材查找优先匹配优化师、产品、国家和日期目录，再根据同前缀文件定位；支持跨目录查找，取消原 2 万项和 16 层限制。\r\n- 素材按真实文件去重，按本批所需数量核对，保留水印目录跳过与同名冲突提示。\r\n- BM 报表保留页暂不主动休眠，复用浏览器自行休眠页仍自动唤醒；任务只使用本次确认的 BM 名单。\r\n- 明确、稳定的所选日期无数据状态可正常继续；报表名称和本地汇总使用账户客户字段，兼容历史报告。\r\n- 工作台仅显示当前 BM 绑定，与已更新的服务端规则保持一致。\r\n\r\n连接器保持 0.0.64。启动性能已完成问题定位，本版尚未包含启动速度优化。",
+  "notes": "## 数据获取版 2.2.0.249\n\n- 修复「广告消耗（4 列，含单日）」在报告设置和金额列排序处卡住的问题。即使账户已全选，工具箱也会点击「应用」，确认弹窗关闭，再读取报表并在本地生成 Excel。\n- 「广告消耗（4 列，含单日）」和「只抓消耗」现在可以直接切换。任务失败时，执行记录会显示发生问题的步骤、控件和错误码。\n- 修复后台报表页空白时的恢复，以及 Windows 暂时占用本地数据库时浏览器重连弹错的问题。\n\n248 用户可以在工具箱内检查更新，也可以下载完整 Windows x64 压缩包，解压后运行「FB工具箱.exe」。本版使用浏览器连接器 0.0.64。",
   "key_id": "f4112e07706e29a2",
-  "signature": "evQMzY_eUt6qfcHkykRUAp2o6pkLc_IeoPTxJQrleXXVi0Du3GS6xzGXUBPbgv38kcz31BNaCgf4YWY9QSWTDQ"
+  "signature": "spt--FjMktnsCj8369jq3lpLQ3raZ4WcogQTYAGVy5bBMQioKVlgigZw18iCN7QfK6Sl8izr_n3v6hVk913HAw"
 }
