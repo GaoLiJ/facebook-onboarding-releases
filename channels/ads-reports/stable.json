@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.249",
-  "release_id": "ads-reports-v2.2.0.249",
+  "version": "2.2.0.250",
+  "release_id": "ads-reports-v2.2.0.250",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-11-18T12:17:53.750000Z",
+  "published_at": "2026-11-24T03:40:35.197000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.249/FB-toolbox-ads-reports-2.2.0.249-win-x64.zip",
-      "size": 126521430,
-      "sha256": "d6de6f0bb94130dd8aa7f5342e5167075564080ec1b7ae71e4cd9f221ed5ab20"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.250/FB-toolbox-ads-reports-2.2.0.250-win-x64.zip",
+      "size": 126579398,
+      "sha256": "e33e6f024697d703881b1a47dd459320c9f543bbed5d8b9bbb7ab1dd9dcf6992"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.248",
+      "base_version": "2.2.0.249",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.249/FB-toolbox-ads-reports-2.2.0.249-from-2.2.0.248.delta.zip",
-      "size": 2601643,
-      "sha256": "4aeaef48efc623875710fdf4cf67c3fa221f2e58ea1e773c6b8b2eddb4ec941b"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.250/FB-toolbox-ads-reports-2.2.0.250-from-2.2.0.249.delta.zip",
+      "size": 3092958,
+      "sha256": "8e57fec0168c7377e761643f80e21faa86c76ddc306f0c256c87b90f664c6f35"
     }
   ],
-  "notes": "## 数据获取版 2.2.0.249\n\n- 修复「广告消耗（4 列，含单日）」在报告设置和金额列排序处卡住的问题。即使账户已全选，工具箱也会点击「应用」，确认弹窗关闭，再读取报表并在本地生成 Excel。\n- 「广告消耗（4 列，含单日）」和「只抓消耗」现在可以直接切换。任务失败时，执行记录会显示发生问题的步骤、控件和错误码。\n- 修复后台报表页空白时的恢复，以及 Windows 暂时占用本地数据库时浏览器重连弹错的问题。\n\n248 用户可以在工具箱内检查更新，也可以下载完整 Windows x64 压缩包，解压后运行「FB工具箱.exe」。本版使用浏览器连接器 0.0.64。",
+  "notes": "## 数据获取版 2.2.0.250\n\n- BM 报表支持 TLR 和 DY 海外户，修复报告自动跳转、单账户页面核对、休眠标签唤醒和失败项续跑。生成文件按日期归档，文件名列出广告系列中的实际包名。\n- 批次格式有误时高亮左侧原文，点右侧行号即可定位。只抓消耗可查看按包汇总。\n- 搭建广告按表单包名选择当前账户已绑定的应用，并改善草稿回读和中英文页面适配。\n- 完整包包含「打开历史版本.exe」。退出正在运行的工具箱后，选择已解压旧包的「FB工具箱.exe」，即可运行那一版。经过在线更新的原入口继续打开已安装新版。\n\n数据获取版 2.2.0.215 及更新的旧客户端可直接在线升级。更早的版本可下载并解压完整 ZIP。",
   "key_id": "f4112e07706e29a2",
-  "signature": "spt--FjMktnsCj8369jq3lpLQ3raZ4WcogQTYAGVy5bBMQioKVlgigZw18iCN7QfK6Sl8izr_n3v6hVk913HAw"
+  "signature": "5XG5gb0O1AJFYpZuROKhxCJXPdJFCKibW6c2iWi-_ZzuZ1UPwFJBUul3ADAdTNx2RJ-bTfrnML8wwoL6o214Cw"
 }
