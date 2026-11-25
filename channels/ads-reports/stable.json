@@ -2,29 +2,29 @@
   "schema": 1,
   "edition": "ads-reports",
   "channel": "stable",
-  "version": "2.2.0.250",
-  "release_id": "ads-reports-v2.2.0.250",
+  "version": "2.2.0.251",
+  "release_id": "ads-reports-v2.2.0.251",
   "protocol_version": 1,
   "min_supported_version": "2.2.0.215",
   "min_extension_version": "0.0.52",
-  "published_at": "2026-11-24T03:40:35.197000Z",
+  "published_at": "2026-11-25T08:27:55.768000Z",
   "artifacts": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.250/FB-toolbox-ads-reports-2.2.0.250-win-x64.zip",
-      "size": 126579398,
-      "sha256": "e33e6f024697d703881b1a47dd459320c9f543bbed5d8b9bbb7ab1dd9dcf6992"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.251/FB-toolbox-ads-reports-2.2.0.251-win-x64.zip",
+      "size": 126585300,
+      "sha256": "58e98ecd7767078a0dd38c277ace1f4ccc2054ced2917924c65e773fb449ccc3"
     },
     {
       "kind": "delta",
-      "base_version": "2.2.0.249",
+      "base_version": "2.2.0.250",
       "platform": "windows-x64",
-      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.250/FB-toolbox-ads-reports-2.2.0.250-from-2.2.0.249.delta.zip",
-      "size": 3092958,
-      "sha256": "8e57fec0168c7377e761643f80e21faa86c76ddc306f0c256c87b90f664c6f35"
+      "url": "https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.251/FB-toolbox-ads-reports-2.2.0.251-from-2.2.0.250.delta.zip",
+      "size": 1475900,
+      "sha256": "f52483cf7e13d50f55e7f04f5c1435314d3d341b2e8af1c1c4e8050073058bc7"
     }
   ],
-  "notes": "## 数据获取版 2.2.0.250\n\n- BM 报表支持 TLR 和 DY 海外户，修复报告自动跳转、单账户页面核对、休眠标签唤醒和失败项续跑。生成文件按日期归档，文件名列出广告系列中的实际包名。\n- 批次格式有误时高亮左侧原文，点右侧行号即可定位。只抓消耗可查看按包汇总。\n- 搭建广告按表单包名选择当前账户已绑定的应用，并改善草稿回读和中英文页面适配。\n- 完整包包含「打开历史版本.exe」。退出正在运行的工具箱后，选择已解压旧包的「FB工具箱.exe」，即可运行那一版。经过在线更新的原入口继续打开已安装新版。\n\n数据获取版 2.2.0.215 及更新的旧客户端可直接在线升级。更早的版本可下载并解压完整 ZIP。",
+  "notes": "**[下载 Windows 版 2.2.0.251](https://github.com/GaoLiJ/facebook-onboarding-releases/releases/download/ads-reports-v2.2.0.251/FB-toolbox-ads-reports-2.2.0.251-direct-win-x64.zip)**\r\n\r\n解压后双击包里的「FB工具箱.exe」。切换版本前先退出已打开的工具箱。\r\n\r\n## 数据获取版 2.2.0.251\r\n\r\n- 完整 BM 报表会搜索并取消模板外已勾选的细分条件，例如「广告组名称」，再核对报表字段。\r\n- 单账户页面缺少账户名称或编号时，按模板顺序填入任务输入中的账户名称和完整编号。\r\n- Meta 原始响应无法核对时，在页面明细和汇总一致的情况下生成 20 列报表。",
   "key_id": "f4112e07706e29a2",
-  "signature": "5XG5gb0O1AJFYpZuROKhxCJXPdJFCKibW6c2iWi-_ZzuZ1UPwFJBUul3ADAdTNx2RJ-bTfrnML8wwoL6o214Cw"
+  "signature": "itdoLwJlQ82wxGytvd__-7YCk2cfTddBoBkYXW8SGBtit86BGgQyhgww-nMXYg4g5OthKC3WSSNIHTQLsZxtDw"
 }
